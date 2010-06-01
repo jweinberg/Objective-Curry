@@ -1,0 +1,3 @@
+Experimenting with Curry/Uncurry in Objective-C, as well as some categories for common functional operations.
+
+It requires LLVM+Clang 2.7 to compile properly, I'll leave that as an exercise to the user to figure out.
