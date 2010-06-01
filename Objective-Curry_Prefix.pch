@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'Objective-Curry' target in the 'Objective-Curry' project.
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
+
+#define OC_OVERLOAD __attribute__((overloadable))
