@@ -272,6 +272,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>8</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -316,7 +318,7 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20306471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Objective-Curry.m</string>
+										<string>curry.m</string>
 										<key>PBXSplitModuleInNavigatorKey</key>
 										<dict>
 											<key>Split0</key>
@@ -324,20 +326,20 @@
 												<key>PBXProjectModuleGUID</key>
 												<string>1CE0B20406471E060097A5F4</string>
 												<key>PBXProjectModuleLabel</key>
-												<string>Objective-Curry.m</string>
+												<string>curry.m</string>
 												<key>_historyCapacity</key>
 												<integer>0</integer>
 												<key>bookmark</key>
-												<string>825F719C11B598A6003659A3</string>
+												<string>825F71A511B59C55003659A3</string>
 												<key>history</key>
 												<array>
 													<string>825F716A11B597DB003659A3</string>
-													<string>825F717C11B59844003659A3</string>
-													<string>825F717E11B59844003659A3</string>
 													<string>825F719311B59868003659A3</string>
-													<string>825F719411B59868003659A3</string>
-													<string>825F719511B59868003659A3</string>
-													<string>825F719911B5989A003659A3</string>
+													<string>825F71A011B59C55003659A3</string>
+													<string>825F71A111B59C55003659A3</string>
+													<string>825F71A211B59C55003659A3</string>
+													<string>825F71A311B59C55003659A3</string>
+													<string>825F71A411B59C55003659A3</string>
 												</array>
 											</dict>
 											<key>SplitCount</key>
@@ -376,7 +378,7 @@
 												<key>_historyCapacity</key>
 												<integer>0</integer>
 												<key>bookmark</key>
-												<string>825F719D11B598A6003659A3</string>
+												<string>825F71A611B59C55003659A3</string>
 												<key>history</key>
 												<array>
 													<string>825F716911B597DB003659A3</string>
