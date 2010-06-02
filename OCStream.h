@@ -23,20 +23,37 @@
 //  SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #import <Foundation/Foundation.h>
+#import "curry.h"
 
-typedef id(^IDBlock)(id);
-typedef IDBlock (^IDBlock2)(id);
-typedef IDBlock2 (^IDBlock3)(id);
-typedef IDBlock3 (^IDBlock4)(id);
+@class OCStream;
 
-typedef id (^c2)(id,id);
-typedef id (^c3)(id,id,id);
-typedef id (^c4)(id,id,id,id);
-/*
-IDBlock2 OC_OVERLOAD curry(c2 block);
-IDBlock3 OC_OVERLOAD curry(c3 block);
-IDBlock4 OC_OVERLOAD curry(c4 block);
+typedef OCStream* (^GeneratorBlock)(id,id);
 
-c2 OC_OVERLOAD uncurry(IDBlock2 block);
-c3 OC_OVERLOAD uncurry(IDBlock3 block);
-c4 OC_OVERLOAD uncurry(IDBlock4 block);*/
+@interface OCStreamEnumerator : NSEnumerator
+{
+@private
+    OCStream *_stream;
+}
+
+- (id)initWithStream:(OCStream*)aStream;
+
+@end
+
+
+@interface OCStream : NSObject {
+@private
+    BOOL _dirtyHead;
+    NSObject * _head;
+    GeneratorBlock _nextValue;
+}
+
+- (id)initWithValue:(id)value generator:(GeneratorBlock)nextValue;
+- (id)generate:(int)count performBlock:(void(^)(id))block;
+
+- (OCStream*)take:(int)count;
+- (OCStream*)drop:(int)count;
+- (OCStream*)tail;
+- (OCStream*)filter:(id(^)(id))block;
+
+- (id)head;
+@end

@@ -1,0 +1,172 @@
+//  Copyright (c) 2010, Josh Weinberg
+//
+//  Redistribution and use in source and binary forms, with or without
+//  modification, are permitted provided that the following conditions are met:
+//  * Redistributions of source code must retain the above copyright
+//  notice, this list of conditions and the following disclaimer.
+//  * Redistributions in binary form must reproduce the above copyright
+//  notice, this list of conditions and the following disclaimer in the
+//  documentation and/or other materials provided with the distribution.
+//  * Neither the name of the <organization> nor the
+//  names of its contributors may be used to endorse or promote products
+//  derived from this software without specific prior written permission.
+//
+//  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+//  ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+//  WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+//  DISCLAIMED. IN NO EVENT SHALL <COPYRIGHT HOLDER> BE LIABLE FOR ANY
+//  DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+//  (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+//   LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+//  ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+//  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+//  SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+#import "OCStream.h"
+
+@implementation OCStreamEnumerator
+
+- (id)initWithStream:(OCStream*)aStream;
+{
+    if ((self=[super init]))
+    {
+        _stream = [aStream retain];
+    }
+    return self;
+}
+
+- (void)dealloc;
+{
+    [_stream release];
+    [super dealloc];
+}
+
+- (id)nextObject;
+{
+    id val = [_stream head];
+    _stream = [[_stream tail] retain];
+    return val;
+}
+
+@end
+
+
+@implementation OCStream
+
+- (id)initWithValue:(id)value generator:(GeneratorBlock)nextValue;
+{
+    if ((self = [super init]))
+    {
+        _head = [value retain];
+        _nextValue = [nextValue copy];
+    }
+    return self;
+}
+
+- (NSEnumerator*)enumerator;
+{
+    return [[[OCStreamEnumerator alloc] initWithStream:self] autorelease];
+}
+
+- (id)head;
+{
+    if (_dirtyHead)
+    {
+        OCStream *tmpStream = _nextValue(_nextValue, _head);
+        [_head release];
+        [_nextValue release];
+        
+        _head = [tmpStream->_head retain];
+        _nextValue = [tmpStream->_nextValue retain];
+        
+        _dirtyHead = NO;
+    }
+    return _head;
+}
+
+- (OCStream*)take:(int)count;
+{
+    return [[[OCStream alloc] initWithValue:[self head]
+                                  generator:^OCStream*(id generatorBlock, id val)
+                                        {
+                                            OCStream * stream = _nextValue(_nextValue,val);
+                                            if (count <= 0)
+                                                return nil;
+                                             
+                                            return [stream take:count-1];
+                                        }] autorelease];
+}
+
+- (OCStream*)drop:(int)count;
+{
+    OCStream *retStream = [[[OCStream alloc] initWithValue:[self head]
+                                  generator:^OCStream*(id generatorBlock, id val)
+                                        {
+                                            OCStream * stream = self;
+                                            for (int i = 0; i < count; ++i)
+                                            {
+                                                stream = [stream->_nextValue(stream->_nextValue, val) retain];
+                                                if (!stream)
+                                                    return nil;
+                                                val = [stream head];
+                                            }
+                                            return [stream autorelease];
+                                        }] autorelease];
+    retStream->_dirtyHead = YES;
+    return retStream;
+}
+
+- (OCStream*)tail;
+{
+    return _nextValue(_nextValue, [self head]);
+}
+
+- (OCStream*)filter:(id(^)(id))block;
+{
+    OCStream *retStream = [[[OCStream alloc] initWithValue:[self head]
+                                  generator:^OCStream*(id generatorBlock, id val)
+                                        {   
+                                            OCStream * stream = _nextValue(_nextValue, val);
+                                            if (stream)
+                                                val = [stream head];
+                                            else 
+                                                return nil;
+                                            while(![block(val) boolValue])
+                                            {
+                                                    stream = stream->_nextValue(stream->_nextValue, val);
+                                                    if (stream)
+                                                        val = [stream head];
+                                                    else 
+                                                        return nil;
+                                            } 
+                                            return [stream filter:block];
+                                        }] autorelease];
+    if (![block([self head]) boolValue])
+        retStream->_dirtyHead = YES;
+    return retStream;
+}
+
+- (OCStream*)generate:(int)count performBlock:(void (^)(id))block;
+{
+    OCStream * newStream = self;
+    id newValue = [newStream head];
+    for (int i = 0; i < count; ++i)
+    {
+        block(newValue);
+        newStream = newStream->_nextValue(newStream->_nextValue, newValue);
+        if (!newStream)
+            break;
+        newValue = [newStream head];
+    }
+    
+    return newStream;
+}
+
+- (void)dealloc;
+{
+    [_head release], _head = nil;
+    [_nextValue release], _nextValue = nil;
+    [super dealloc];
+}
+
+@end

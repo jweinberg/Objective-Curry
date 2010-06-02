@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		825F715C11B5973B003659A3 /* curry.m in Sources */ = {isa = PBXBuildFile; fileRef = 825F715B11B5973B003659A3 /* curry.m */; };
 		825F718E11B59848003659A3 /* NSArray+Functional.m in Sources */ = {isa = PBXBuildFile; fileRef = 825F718D11B59848003659A3 /* NSArray+Functional.m */; };
+		825F734D11B6AFEC003659A3 /* OCStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 825F734C11B6AFEC003659A3 /* OCStream.m */; };
 		8DD76F9A0486AA7600D96B5E /* Objective-Curry.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */; settings = {ATTRIBUTES = (); }; };
 		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -33,6 +33,8 @@
 		825F715B11B5973B003659A3 /* curry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = curry.m; sourceTree = "<group>"; };
 		825F718C11B59848003659A3 /* NSArray+Functional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Functional.h"; sourceTree = "<group>"; };
 		825F718D11B59848003659A3 /* NSArray+Functional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Functional.m"; sourceTree = "<group>"; };
+		825F734B11B6AFEC003659A3 /* OCStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCStream.h; sourceTree = "<group>"; };
+		825F734C11B6AFEC003659A3 /* OCStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCStream.m; sourceTree = "<group>"; };
 		8DD76FA10486AA7600D96B5E /* Objective-Curry */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Objective-Curry"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -61,6 +63,7 @@
 		08FB7795FE84155DC02AAC07 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				825F734811B6AFB6003659A3 /* OCStream */,
 				825F717B11B59840003659A3 /* Categories */,
 				32A70AAB03705E1F00C91783 /* Objective-Curry_Prefix.pch */,
 				08FB7796FE84155DC02AAC07 /* Objective-Curry.m */,
@@ -93,6 +96,15 @@
 				825F718D11B59848003659A3 /* NSArray+Functional.m */,
 			);
 			name = Categories;
+			sourceTree = "<group>";
+		};
+		825F734811B6AFB6003659A3 /* OCStream */ = {
+			isa = PBXGroup;
+			children = (
+				825F734B11B6AFEC003659A3 /* OCStream.h */,
+				825F734C11B6AFEC003659A3 /* OCStream.m */,
+			);
+			name = OCStream;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +151,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DD76F9A0486AA7600D96B5E /* Objective-Curry.m in Sources */,
-				825F715C11B5973B003659A3 /* curry.m in Sources */,
 				825F718E11B59848003659A3 /* NSArray+Functional.m in Sources */,
+				825F734D11B6AFEC003659A3 /* OCStream.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,7 +170,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Objective-Curry_Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvm.clang.2_0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INSTALL_PATH = /usr/local/bin;
 				PRODUCT_NAME = "Objective-Curry";
 			};
@@ -172,7 +184,7 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Objective-Curry_Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvm.clang.2_0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INSTALL_PATH = /usr/local/bin;
 				PRODUCT_NAME = "Objective-Curry";
 			};
