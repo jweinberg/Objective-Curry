@@ -26,13 +26,13 @@
 
 @implementation NSArray (Functional)
 
-- (NSArray*)filter:(int(^)(id))block;
+- (NSArray*)filter:(id(^)(id))block;
 {
     NSMutableArray *temp = [NSMutableArray array];
     
     for (id item in self)
     {
-        if (block(item))
+        if ([block(item) boolValue])
             [temp addObject:item]; 
     }
     
@@ -98,11 +98,11 @@
     return temp;       
 }
 
-- (BOOL)forall:(BOOL(^)(id))block;
+- (BOOL)forall:(id(^)(id))block;
 {
     for (id item in self)
     {
-        if (!block(item))
+        if (![block(item) boolValue])
             return NO;
     }
     return YES;

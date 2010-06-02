@@ -27,12 +27,12 @@
 
 @interface NSArray (Functional)
 
-- (NSArray*)filter:(int(^)(id))block;
-- (NSArray*)map:(id(^)(id))block;
-- (id)foldLeft:(id)start withBlock:(id(^)(id,id))block;
-- (id)foldRight:(id)start withBlock:(id(^)(id,id))block;
-- (id)reduceLeft:(id(^)(id,id))block;
-- (id)reduceRight:(id(^)(id,id))block;
-- (BOOL)forall:(BOOL(^)(id))block;
+- (NSArray*)filter:(id(^)(id))block; //Block is id => BOOL
+- (NSArray*)map:(id(^)(id))block; //Block is id => id
+- (id)foldLeft:(id)start withBlock:(id(^)(id,id))block; //Block is (id,id) => id
+- (id)foldRight:(id)start withBlock:(id(^)(id,id))block; //Block is (id,id) => id
+- (id)reduceLeft:(id(^)(id,id))block; //Block is (id,id) => id
+- (id)reduceRight:(id(^)(id,id))block; //Block is (id,id) => id
+- (BOOL)forall:(id(^)(id))block; //Block is id => BOOL
 
 @end

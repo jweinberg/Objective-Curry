@@ -29,12 +29,22 @@
 int main (int argc, const char * argv[]) {
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
     
-    IDBlock3 appendyThing = curry( ^(NSString* a, NSString* b, NSString* c) { 
-        return [a stringByAppendingFormat:@"%@,%@", b, c];
-    } );
+    IDBlock2 modN = curry(^(id n, id x)
+                          {
+                              return [NSNumber numberWithBool:([x integerValue] % [n integerValue]) == 0];
+                          });
+ 
+    NSArray * nums = [NSArray arrayWithObjects:[NSNumber numberWithInt:1],
+                      [NSNumber numberWithInt:2],
+                      [NSNumber numberWithInt:3],
+                      [NSNumber numberWithInt:4],
+                      [NSNumber numberWithInt:5],
+                      [NSNumber numberWithInt:6],
+                      [NSNumber numberWithInt:7],
+                      [NSNumber numberWithInt:8],
+                      nil];
     
-    NSArray * stuff = [NSArray arrayWithObjects:@"This", @"is", @"a", @"stupid", @"test", nil];
-    NSLog(@"%@", [stuff reduceLeft:uncurry(appendyThing(@"Wooo!"))]);
+    NSLog(@"%@", [nums filter:modN([NSNumber numberWithInt:3])]);
     [pool drain];
     return 0;
 }

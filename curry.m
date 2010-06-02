@@ -51,7 +51,7 @@ c2 OC_OVERLOAD uncurry(IDBlock2 block)
 }
 
 
-c3 OC_OVERLOAD uncurry(IDBlock3 block)
+c3 OC_OVERLOAD uncurry(IDBlock3 block)  
 {
     return [[^(id a, id b, id c)
              {
