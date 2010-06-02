@@ -63,6 +63,14 @@
     return self;
 }
 
+- (void)dealloc;
+{
+    [_head release], _head = nil;
+    [_nextValue release], _nextValue = nil;
+    [super dealloc];
+}
+
+
 - (NSEnumerator*)enumerator;
 {
     return [[[OCStreamEnumerator alloc] initWithStream:self] autorelease];
@@ -160,13 +168,6 @@
     }
     
     return newStream;
-}
-
-- (void)dealloc;
-{
-    [_head release], _head = nil;
-    [_nextValue release], _nextValue = nil;
-    [super dealloc];
 }
 
 @end
