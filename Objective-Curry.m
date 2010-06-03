@@ -62,7 +62,7 @@ int main (int argc, const char * argv[]) {
     OCStream * stream = [[[fib(1,1) filter:^(id arg1) {return [NSNumber numberWithFloat:[arg1 longLongValue] % 2 == 0];}]  map:^(id arg1) {return [NSString stringWithFormat:@"WOO:%@", arg1];}] map:^(id arg1) {return [arg1 lowercaseString];}];
     NSArray * array = [[OCArray arrayWithStream:[stream take:100]] subarrayWithRange:NSMakeRange(10, 5)];
     
-    for(NSNumber * num in [array reverseObjectEnumerator])
+    for(NSNumber * num in array)
     {
        NSLog(@"enumerated: %@", num);
     }

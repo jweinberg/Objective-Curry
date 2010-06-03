@@ -116,6 +116,7 @@
 
 - (id)head;
 {
+
     if (_dirtyHead)
     {
         OCStream *tmpStream = _nextValue();

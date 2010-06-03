@@ -48,4 +48,14 @@
     return [OCArray arrayWithStream:[[_stream drop:range.location] take:range.length]];
 }
 
+- (NSEnumerator *)objectEnumerator;
+{
+    return [_stream enumerator];
+}
+
+- (NSUInteger)countByEnumeratingWithState:(NSFastEnumerationState *)state objects:(id *)stackbuf count:(NSUInteger)len;
+{
+    return [_stream countByEnumeratingWithState:state objects:stackbuf count:len];
+}
+
 @end
