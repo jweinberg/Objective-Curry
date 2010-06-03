@@ -46,6 +46,7 @@ typedef OCStream* (^GeneratorBlock)(void);
     BOOL _hasDefiniteLength;
     NSObject * _head;
     GeneratorBlock _nextValue;
+    NSUInteger _length;
 }
 
 + (id)streamWithValue:(id)value generator:(GeneratorBlock)nextValue;
@@ -59,6 +60,6 @@ typedef OCStream* (^GeneratorBlock)(void);
 - (OCStream*)drop:(int)count;
 - (OCStream*)tail;
 - (OCStream*)filter:(id(^)(id))block;
-
+- (NSUInteger)length;
 - (id)head;
 @end

@@ -59,7 +59,7 @@
 {
     return [[[OCStream alloc] initWithValue:value generator:nextValue] autorelease];
 }
-        
+
 - (id)initWithValue:(id)value generator:(GeneratorBlock)nextValue;
 {
     if ((self = [super init]))
@@ -75,6 +75,13 @@
     [_head release], _head = nil;
     [_nextValue release], _nextValue = nil;
     [super dealloc];
+}
+
+- (NSUInteger)length;
+{
+    if (_hasDefiniteLength)
+        return _length;
+    return UINT_MAX;
 }
 
 - (NSUInteger)countByEnumeratingWithState:(NSFastEnumerationState *)state objects:(id *)stackbuf count:(NSUInteger)len
@@ -126,18 +133,19 @@
 - (OCStream*)take:(int)count;
 {
     OCStream *retStream = [OCStream streamWithValue:[self head]
-                           generator:^OCStream*(void)
-                                        {
-                                            OCStream * stream = _nextValue();
-                                            if (count <= 1)
-                                                return nil;
-                                             
-                                            return [stream take:count-1];
-                                        }];
+                                          generator:^OCStream*(void)
+                           {
+                               OCStream * stream = _nextValue();
+                               if (count <= 1)
+                                   return nil;
+                               
+                               return [stream take:count-1];
+                           }];
     if (retStream)
     {
         retStream->_hasDefiniteLength = YES;
         retStream->_dirtyHead = _dirtyHead;
+        retStream->_length = count;
     }
     return retStream;
 }
@@ -146,22 +154,24 @@
 {
     OCStream *retStream = [OCStream streamWithValue:[self head]
                                           generator:^OCStream*(void)
-                                                        {
-                                                            OCStream * stream = self;
-                                                            id val = nil;
-                                                            for (int i = 0; i < count; ++i)
-                                                            {
-                                                                stream = stream->_nextValue();
-                                                                if (!stream)
-                                                                    return nil;
-                                                                val = [stream head];
-                                                            }
-                                                            return stream;
-                                                        }];
+                           {
+                               OCStream * stream = self;
+                               id val = nil;
+                               for (int i = 0; i < count; ++i)
+                               {
+                                   stream = stream->_nextValue();
+                                   if (!stream)
+                                       return nil;
+                                   val = [stream head];
+                               }
+                               return stream;
+                           }];
     if (retStream)
     {
         retStream->_dirtyHead = YES;
         retStream->_hasDefiniteLength = _hasDefiniteLength;
+        if (_hasDefiniteLength)
+            retStream->_length = _length - count;
     }
     return retStream;
 }
@@ -170,7 +180,11 @@
 {
     OCStream *retStream = _nextValue();
     if (retStream)
+    {
         retStream->_hasDefiniteLength = _hasDefiniteLength;
+        if (_hasDefiniteLength)
+            retStream->_length = _length - 1;
+    }
     return retStream;
 }
 
@@ -178,29 +192,31 @@
 {
     OCStream *retStream = [OCStream streamWithValue:[self head]
                                           generator:^OCStream*(void)
-                                            {   
-                                                OCStream * stream = _nextValue();
-                                                id val = nil;
-                                                if (stream)
-                                                    val = [stream head];
-                                                else 
-                                                    return nil;
-                                                while(![block(val) boolValue])
-                                                {
-                                                        stream = stream->_nextValue();
-                                                        if (stream)
-                                                            val = [stream head];
-                                                        else 
-                                                            return nil;
-                                                } 
-                                                return [stream filter:block];
-                                            }];
+                           {   
+                               OCStream * stream = _nextValue();
+                               id val = nil;
+                               if (stream)
+                                   val = [stream head];
+                               else 
+                                   return nil;
+                               while(![block(val) boolValue])
+                               {
+                                   stream = stream->_nextValue();
+                                   if (stream)
+                                       val = [stream head];
+                                   else 
+                                       return nil;
+                               } 
+                               return [stream filter:block];
+                           }];
     if (retStream)
     {
         if (![block([self head]) boolValue])
             retStream->_dirtyHead = YES;
-    
+        
         retStream->_hasDefiniteLength = _hasDefiniteLength;
+        if (_hasDefiniteLength)
+            retStream->_length = _length;
     }
     return retStream;
 }
@@ -208,7 +224,7 @@
 - (OCStream*)map:(id(^)(id))block;
 {
     OCStream *retStream = [OCStream streamWithValue:block([self head])
-                                          generator:^OCStream*(void)
+                                          generator:^OCStream*
                            {   
                                OCStream * stream = _nextValue();
                                return [stream map:block];
@@ -217,6 +233,8 @@
     {
         retStream->_dirtyHead = NO;
         retStream->_hasDefiniteLength = _hasDefiniteLength;
+        if (_hasDefiniteLength)
+            retStream->_length = _length;
     }
     return retStream;    
 }

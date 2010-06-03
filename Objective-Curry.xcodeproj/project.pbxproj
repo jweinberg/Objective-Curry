@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		825F718E11B59848003659A3 /* NSArray+Functional.m in Sources */ = {isa = PBXBuildFile; fileRef = 825F718D11B59848003659A3 /* NSArray+Functional.m */; };
 		825F734D11B6AFEC003659A3 /* OCStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 825F734C11B6AFEC003659A3 /* OCStream.m */; };
+		825F7ADD11B8085A003659A3 /* OCArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 825F7ADC11B8085A003659A3 /* OCArray.m */; };
 		8DD76F9A0486AA7600D96B5E /* Objective-Curry.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */; settings = {ATTRIBUTES = (); }; };
 		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -35,6 +36,8 @@
 		825F718D11B59848003659A3 /* NSArray+Functional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Functional.m"; sourceTree = "<group>"; };
 		825F734B11B6AFEC003659A3 /* OCStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCStream.h; sourceTree = "<group>"; };
 		825F734C11B6AFEC003659A3 /* OCStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCStream.m; sourceTree = "<group>"; };
+		825F7ADB11B8085A003659A3 /* OCArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCArray.h; sourceTree = "<group>"; };
+		825F7ADC11B8085A003659A3 /* OCArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCArray.m; sourceTree = "<group>"; };
 		8DD76FA10486AA7600D96B5E /* Objective-Curry */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Objective-Curry"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -103,6 +106,8 @@
 			children = (
 				825F734B11B6AFEC003659A3 /* OCStream.h */,
 				825F734C11B6AFEC003659A3 /* OCStream.m */,
+				825F7ADB11B8085A003659A3 /* OCArray.h */,
+				825F7ADC11B8085A003659A3 /* OCArray.m */,
 			);
 			name = OCStream;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 				8DD76F9A0486AA7600D96B5E /* Objective-Curry.m in Sources */,
 				825F718E11B59848003659A3 /* NSArray+Functional.m in Sources */,
 				825F734D11B6AFEC003659A3 /* OCStream.m in Sources */,
+				825F7ADD11B8085A003659A3 /* OCArray.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
