@@ -47,6 +47,7 @@ typedef OCStream* (^GeneratorBlock)(id,id);
     GeneratorBlock _nextValue;
 }
 
++ (id)streamWithValue:(id)value generator:(GeneratorBlock)nextValue;
 - (id)initWithValue:(id)value generator:(GeneratorBlock)nextValue;
 - (id)generate:(int)count performBlock:(void(^)(id))block;
 

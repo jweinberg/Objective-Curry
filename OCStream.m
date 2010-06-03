@@ -53,6 +53,12 @@
 
 @implementation OCStream
 
+
++ (id)streamWithValue:(id)value generator:(GeneratorBlock)nextValue;
+{
+    return [[[OCStream alloc] initWithValue:value generator:nextValue] autorelease];
+}
+        
 - (id)initWithValue:(id)value generator:(GeneratorBlock)nextValue;
 {
     if ((self = [super init]))
@@ -94,32 +100,32 @@
 
 - (OCStream*)take:(int)count;
 {
-    return [[[OCStream alloc] initWithValue:[self head]
-                                  generator:^OCStream*(id generatorBlock, id val)
+    return [OCStream streamWithValue:[self head]
+                           generator:^OCStream*(id generatorBlock, id val)
                                         {
                                             OCStream * stream = _nextValue(_nextValue,val);
                                             if (count <= 0)
                                                 return nil;
                                              
                                             return [stream take:count-1];
-                                        }] autorelease];
+                                        }];
 }
 
 - (OCStream*)drop:(int)count;
 {
-    OCStream *retStream = [[[OCStream alloc] initWithValue:[self head]
-                                  generator:^OCStream*(id generatorBlock, id val)
-                                        {
-                                            OCStream * stream = self;
-                                            for (int i = 0; i < count; ++i)
-                                            {
-                                                stream = [stream->_nextValue(stream->_nextValue, val) retain];
-                                                if (!stream)
-                                                    return nil;
-                                                val = [stream head];
-                                            }
-                                            return [stream autorelease];
-                                        }] autorelease];
+    OCStream *retStream = [OCStream streamWithValue:[self head]
+                                          generator:^OCStream*(id generatorBlock, id val)
+                                                        {
+                                                            OCStream * stream = self;
+                                                            for (int i = 0; i < count; ++i)
+                                                            {
+                                                                stream = stream->_nextValue(stream->_nextValue, val);
+                                                                if (!stream)
+                                                                    return nil;
+                                                                val = [stream head];
+                                                            }
+                                                            return stream;
+                                                        }];
     retStream->_dirtyHead = YES;
     return retStream;
 }
@@ -131,24 +137,24 @@
 
 - (OCStream*)filter:(id(^)(id))block;
 {
-    OCStream *retStream = [[[OCStream alloc] initWithValue:[self head]
-                                  generator:^OCStream*(id generatorBlock, id val)
-                                        {   
-                                            OCStream * stream = _nextValue(_nextValue, val);
-                                            if (stream)
-                                                val = [stream head];
-                                            else 
-                                                return nil;
-                                            while(![block(val) boolValue])
-                                            {
-                                                    stream = stream->_nextValue(stream->_nextValue, val);
-                                                    if (stream)
-                                                        val = [stream head];
-                                                    else 
-                                                        return nil;
-                                            } 
-                                            return [stream filter:block];
-                                        }] autorelease];
+    OCStream *retStream = [OCStream streamWithValue:[self head]
+                                          generator:^OCStream*(id generatorBlock, id val)
+                                            {   
+                                                OCStream * stream = _nextValue(_nextValue, val);
+                                                if (stream)
+                                                    val = [stream head];
+                                                else 
+                                                    return nil;
+                                                while(![block(val) boolValue])
+                                                {
+                                                        stream = stream->_nextValue(stream->_nextValue, val);
+                                                        if (stream)
+                                                            val = [stream head];
+                                                        else 
+                                                            return nil;
+                                                } 
+                                                return [stream filter:block];
+                                            }];
     if (![block([self head]) boolValue])
         retStream->_dirtyHead = YES;
     return retStream;
