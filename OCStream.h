@@ -61,6 +61,7 @@ typedef OCStream* (^GeneratorBlock)(void);
 - (OCStream*)drop:(int)count;
 - (OCStream*)tail;
 - (OCStream*)filter:(id(^)(id))block;
+- (OCStream*)zip:(OCStream*)aStream;
 - (NSUInteger)length;
 - (id)head;
 @end

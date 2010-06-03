@@ -8,7 +8,7 @@
 			8DD76F960486AA7600D96B5E /* Objective-Curry */,
 		);
 		breakpoints = (
-			825F7BD811B8427F003659A3 /* Objective-Curry.m:70 */,
+			825F7BD811B8427F003659A3 /* Objective-Curry.m:68 */,
 		);
 		codeSenseManager = 825F715011B59708003659A3 /* Code sense */;
 		executables = (
@@ -764,6 +764,14 @@
 			825F7BE211B842E3003659A3 /* PBXTextBookmark */ = 825F7BE211B842E3003659A3 /* PBXTextBookmark */;
 			825F7BE311B842E3003659A3 /* PBXTextBookmark */ = 825F7BE311B842E3003659A3 /* PBXTextBookmark */;
 			825F7BE411B842E3003659A3 /* PBXTextBookmark */ = 825F7BE411B842E3003659A3 /* PBXTextBookmark */;
+			825F7BF911B8444E003659A3 /* PBXTextBookmark */ = 825F7BF911B8444E003659A3 /* PBXTextBookmark */;
+			825F7BFA11B8444E003659A3 /* PBXTextBookmark */ = 825F7BFA11B8444E003659A3 /* PBXTextBookmark */;
+			825F7BFB11B8444E003659A3 /* PBXTextBookmark */ = 825F7BFB11B8444E003659A3 /* PBXTextBookmark */;
+			825F7BFC11B8444E003659A3 /* PBXTextBookmark */ = 825F7BFC11B8444E003659A3 /* PBXTextBookmark */;
+			825F7BFD11B8444E003659A3 /* PBXTextBookmark */ = 825F7BFD11B8444E003659A3 /* PBXTextBookmark */;
+			825F7BFE11B8444E003659A3 /* PBXTextBookmark */ = 825F7BFE11B8444E003659A3 /* PBXTextBookmark */;
+			825F7BFF11B8444E003659A3 /* PBXTextBookmark */ = 825F7BFF11B8444E003659A3 /* PBXTextBookmark */;
+			825F7C0011B8444E003659A3 /* PBXTextBookmark */ = 825F7C0011B8444E003659A3 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 825F714F11B59708003659A3 /* Source Control */;
 		userBuildSettings = {
@@ -771,9 +779,9 @@
 	};
 	08FB7796FE84155DC02AAC07 /* Objective-Curry.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1706, 1120}}";
-			sepNavSelRange = "{3162, 0}";
-			sepNavVisRange = "{1587, 1765}";
+			sepNavIntBoundsRect = "{{0, 0}, {1706, 1092}}";
+			sepNavSelRange = "{3215, 0}";
+			sepNavVisRange = "{1538, 1754}";
 			sepNavWindowFrame = "{{122, 85}, {1031, 746}}";
 		};
 	};
@@ -849,7 +857,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 11";
 		rLen = 0;
-		rLoc = 3352;
+		rLoc = 3292;
 		rType = 0;
 		vrLen = 234;
 		vrLoc = 0;
@@ -936,7 +944,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 18";
 		rLen = 0;
-		rLoc = 3352;
+		rLoc = 3292;
 		rType = 0;
 		vrLen = 569;
 		vrLoc = 0;
@@ -946,7 +954,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 18";
 		rLen = 0;
-		rLoc = 3352;
+		rLoc = 3292;
 		rType = 0;
 		vrLen = 569;
 		vrLoc = 0;
@@ -1011,7 +1019,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 18";
 		rLen = 0;
-		rLoc = 3352;
+		rLoc = 3292;
 		rType = 0;
 		vrLen = 569;
 		vrLoc = 0;
@@ -1021,7 +1029,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 17";
 		rLen = 0;
-		rLoc = 3352;
+		rLoc = 3292;
 		rType = 0;
 		vrLen = 549;
 		vrLoc = 0;
@@ -1041,7 +1049,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 17";
 		rLen = 0;
-		rLoc = 3352;
+		rLoc = 3292;
 		rType = 0;
 		vrLen = 549;
 		vrLoc = 0;
@@ -1051,7 +1059,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 11";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 549;
 		vrLoc = 0;
@@ -1071,7 +1079,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 11";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 549;
 		vrLoc = 0;
@@ -1256,7 +1264,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 49";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 2117;
 		vrLoc = 399;
@@ -1286,7 +1294,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 50";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 2299;
 		vrLoc = 41;
@@ -1296,7 +1304,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 51";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 1948;
 		vrLoc = 744;
@@ -1316,7 +1324,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 33";
 		rLen = 0;
-		rLoc = 2789;
+		rLoc = 2740;
 		rType = 0;
 		vrLen = 2022;
 		vrLoc = 670;
@@ -1563,7 +1571,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 51";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 1569;
 		vrLoc = 1219;
@@ -1639,7 +1647,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 33";
 		rLen = 0;
-		rLoc = 2789;
+		rLoc = 2740;
 		rType = 0;
 		vrLen = 2044;
 		vrLoc = 670;
@@ -1679,7 +1687,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 52";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 1650;
 		vrLoc = 1138;
@@ -1689,7 +1697,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 52";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -1729,7 +1737,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 64";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 1569;
 		vrLoc = 1219;
@@ -1769,7 +1777,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 52";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -1789,7 +1797,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 52";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -1819,7 +1827,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 56";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 1650;
 		vrLoc = 1138;
@@ -1839,7 +1847,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 52";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -1859,7 +1867,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 64";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 1650;
 		vrLoc = 1138;
@@ -1899,7 +1907,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 52";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -1919,7 +1927,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 52";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -1938,7 +1946,7 @@
 		isa = PBXTextBookmark;
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		rLen = 0;
-		rLoc = 76;
+		rLoc = 74;
 		rType = 1;
 	};
 	825F728411B5B40E003659A3 /* PBXTextBookmark */ = {
@@ -1946,7 +1954,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 64";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 1409;
 		vrLoc = 1379;
@@ -1956,7 +1964,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 52";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -2016,7 +2024,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 46";
 		rLen = 0;
-		rLoc = 2789;
+		rLoc = 2740;
 		rType = 0;
 		vrLen = 1650;
 		vrLoc = 1138;
@@ -2026,7 +2034,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 64";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 1650;
 		vrLoc = 1138;
@@ -2036,7 +2044,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 52";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -2046,7 +2054,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 44";
 		rLen = 0;
-		rLoc = 2789;
+		rLoc = 2740;
 		rType = 0;
 		vrLen = 1569;
 		vrLoc = 1219;
@@ -2056,7 +2064,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 52";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -2066,7 +2074,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 48";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 1569;
 		vrLoc = 1219;
@@ -2106,7 +2114,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 52";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -2126,7 +2134,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 63";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 1409;
 		vrLoc = 1379;
@@ -2136,7 +2144,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 63";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 1488;
 		vrLoc = 1300;
@@ -2146,7 +2154,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 52";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -2166,7 +2174,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 63";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 1488;
 		vrLoc = 1300;
@@ -2176,7 +2184,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 63";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 1650;
 		vrLoc = 1138;
@@ -2186,7 +2194,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 52";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -2196,7 +2204,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 46";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 2417;
 		vrLoc = 38;
@@ -2236,7 +2244,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 35";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -2266,7 +2274,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 46";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 2417;
 		vrLoc = 38;
@@ -2276,7 +2284,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 31";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 2414;
 		vrLoc = 41;
@@ -2286,7 +2294,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 35";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -2306,7 +2314,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 46";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 2417;
 		vrLoc = 38;
@@ -2336,7 +2344,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 35";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -2376,7 +2384,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 35";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -2462,7 +2470,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 35";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -2482,7 +2490,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 34";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 2448;
 		vrLoc = 41;
@@ -2542,7 +2550,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 35";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -2592,7 +2600,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 34";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 2451;
 		vrLoc = 38;
@@ -2602,7 +2610,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 38";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 2448;
 		vrLoc = 41;
@@ -2612,7 +2620,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 35";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -2622,7 +2630,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 36";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 2448;
 		vrLoc = 41;
@@ -2632,23 +2640,23 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 35";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
 	};
 	825F734B11B6AFEC003659A3 /* OCStream.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {558, 798}}";
+			sepNavIntBoundsRect = "{{0, 0}, {537, 868}}";
 			sepNavSelRange = "{1580, 0}";
 			sepNavVisRange = "{0, 0}";
 		};
 	};
 	825F734C11B6AFEC003659A3 /* OCStream.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1105, 3906}}";
-			sepNavSelRange = "{3413, 0}";
-			sepNavVisRange = "{2445, 1226}";
+			sepNavIntBoundsRect = "{{0, 0}, {1105, 3766}}";
+			sepNavSelRange = "{7482, 0}";
+			sepNavVisRange = "{6514, 1458}";
 		};
 	};
 	825F73C211B6BE00003659A3 /* PBXTextBookmark */ = {
@@ -2676,7 +2684,7 @@
 		fRef = 825F734B11B6AFEC003659A3 /* OCStream.h */;
 		name = "OCStream.h: 38";
 		rLen = 0;
-		rLoc = 2268;
+		rLoc = 2305;
 		rType = 0;
 		vrLen = 1811;
 		vrLoc = 0;
@@ -2706,7 +2714,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 34";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 2626;
 		vrLoc = 0;
@@ -2716,7 +2724,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 36";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 2684;
 		vrLoc = 0;
@@ -2726,7 +2734,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 43";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -2736,7 +2744,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 37";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 2755;
 		vrLoc = 0;
@@ -2746,7 +2754,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 44";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -2796,7 +2804,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 37";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 2741;
 		vrLoc = 0;
@@ -2806,7 +2814,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 34";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 2788;
 		vrLoc = 0;
@@ -2816,7 +2824,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 43";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -2846,7 +2854,7 @@
 		fRef = 825F734B11B6AFEC003659A3 /* OCStream.h */;
 		name = "OCStream.h: 38";
 		rLen = 0;
-		rLoc = 2268;
+		rLoc = 2305;
 		rType = 0;
 		vrLen = 1808;
 		vrLoc = 0;
@@ -2866,7 +2874,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 38";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 2743;
 		vrLoc = 0;
@@ -2876,7 +2884,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 38";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 2661;
 		vrLoc = 0;
@@ -2886,7 +2894,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 43";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -2926,7 +2934,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 43";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -2946,7 +2954,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 43";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -2986,7 +2994,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 43";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -3006,7 +3014,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 43";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -3026,7 +3034,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 43";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -3046,7 +3054,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 43";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -3076,7 +3084,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 41";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 2213;
 		vrLoc = 0;
@@ -3086,7 +3094,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 41";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -3096,7 +3104,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 41";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 2218;
 		vrLoc = 0;
@@ -3106,7 +3114,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 42";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -3116,7 +3124,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 41";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 2298;
 		vrLoc = 0;
@@ -3156,7 +3164,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 42";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -3186,7 +3194,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 41";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 2298;
 		vrLoc = 0;
@@ -3196,7 +3204,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 47";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 2472;
 		vrLoc = 112;
@@ -3206,7 +3214,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 48";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -3216,7 +3224,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 47";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 2543;
 		vrLoc = 41;
@@ -3256,7 +3264,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 48";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -3286,7 +3294,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 47";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 2543;
 		vrLoc = 41;
@@ -3296,7 +3304,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 27";
 		rLen = 0;
-		rLoc = 1518;
+		rLoc = 1469;
 		rType = 0;
 		vrLen = 2543;
 		vrLoc = 41;
@@ -3306,7 +3314,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 48";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -3316,7 +3324,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 42";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 2574;
 		vrLoc = 41;
@@ -3326,7 +3334,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 48";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -3336,7 +3344,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 35";
 		rLen = 0;
-		rLoc = 2794;
+		rLoc = 2745;
 		rType = 0;
 		vrLen = 2503;
 		vrLoc = 112;
@@ -3346,7 +3354,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 48";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -3356,7 +3364,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 41";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 2184;
 		vrLoc = 0;
@@ -3396,7 +3404,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 42";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -3426,7 +3434,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 42";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -3446,7 +3454,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 42";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -3486,7 +3494,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 42";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -3526,7 +3534,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 42";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -3556,7 +3564,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 42";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 2318;
 		vrLoc = 0;
@@ -3566,7 +3574,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 36";
 		rLen = 0;
-		rLoc = 2794;
+		rLoc = 2745;
 		rType = 0;
 		vrLen = 2268;
 		vrLoc = 0;
@@ -3576,7 +3584,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 42";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -3596,7 +3604,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 44";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 2361;
 		vrLoc = 38;
@@ -3626,7 +3634,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 44";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -3646,7 +3654,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 44";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 2399;
 		vrLoc = 0;
@@ -3676,7 +3684,7 @@
 		fRef = 825F734B11B6AFEC003659A3 /* OCStream.h */;
 		name = "OCStream.h: 43";
 		rLen = 0;
-		rLoc = 2268;
+		rLoc = 2305;
 		rType = 0;
 		vrLen = 1924;
 		vrLoc = 0;
@@ -3706,7 +3714,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 44";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -3736,7 +3744,7 @@
 		fRef = 825F734B11B6AFEC003659A3 /* OCStream.h */;
 		name = "OCStream.h: 43";
 		rLen = 0;
-		rLoc = 2268;
+		rLoc = 2305;
 		rType = 0;
 		vrLen = 1961;
 		vrLoc = 0;
@@ -3745,7 +3753,7 @@
 		isa = PBXTextBookmark;
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		rLen = 0;
-		rLoc = 76;
+		rLoc = 74;
 		rType = 1;
 	};
 	825F754411B6EC7C003659A3 /* PBXTextBookmark */ = {
@@ -3753,7 +3761,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 48";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 2317;
 		vrLoc = 327;
@@ -3763,7 +3771,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 49";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -3783,7 +3791,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 45";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 2520;
 		vrLoc = 192;
@@ -3813,7 +3821,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 50";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -3833,7 +3841,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 50";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -3853,7 +3861,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 29";
 		rLen = 0;
-		rLoc = 2680;
+		rLoc = 2631;
 		rType = 0;
 		vrLen = 2522;
 		vrLoc = 192;
@@ -3883,7 +3891,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 50";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -3893,7 +3901,7 @@
 		fRef = 825F734B11B6AFEC003659A3 /* OCStream.h */;
 		name = "OCStream.h: 43";
 		rLen = 0;
-		rLoc = 2268;
+		rLoc = 2305;
 		rType = 0;
 		vrLen = 1961;
 		vrLoc = 0;
@@ -3913,7 +3921,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 49";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 2398;
 		vrLoc = 327;
@@ -3922,7 +3930,7 @@
 		isa = PBXTextBookmark;
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		rLen = 0;
-		rLoc = 259;
+		rLoc = 276;
 		rType = 1;
 	};
 	825F757911B6EF41003659A3 /* PBXTextBookmark */ = {
@@ -3940,7 +3948,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 50";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -3950,7 +3958,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 43";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 2329;
 		vrLoc = 399;
@@ -3959,7 +3967,7 @@
 		isa = PBXTextBookmark;
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		rLen = 0;
-		rLoc = 259;
+		rLoc = 276;
 		rType = 1;
 	};
 	825F758811B6F013003659A3 /* PBXTextBookmark */ = {
@@ -3977,7 +3985,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 50";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -4007,7 +4015,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 41";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 2562;
 		vrLoc = 38;
@@ -4017,7 +4025,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 34";
 		rLen = 0;
-		rLoc = 2794;
+		rLoc = 2745;
 		rType = 0;
 		vrLen = 2559;
 		vrLoc = 41;
@@ -4027,7 +4035,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 47";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -4037,7 +4045,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 46";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 2499;
 		vrLoc = 38;
@@ -4067,7 +4075,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 46";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -4107,7 +4115,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 41";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 2547;
 		vrLoc = 0;
@@ -4116,8 +4124,8 @@
 		isa = PBXTextBookmark;
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 31";
-		rLen = 670;
-		rLoc = 2682;
+		rLen = 659;
+		rLoc = 2633;
 		rType = 0;
 		vrLen = 2509;
 		vrLoc = 38;
@@ -4127,7 +4135,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 46";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -4137,7 +4145,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 41";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 2517;
 		vrLoc = 38;
@@ -4147,7 +4155,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 48";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -4157,7 +4165,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 45";
 		rLen = 0;
-		rLoc = 2378;
+		rLoc = 2329;
 		rType = 0;
 		vrLen = 1875;
 		vrLoc = 913;
@@ -4167,7 +4175,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 65";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -4177,7 +4185,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 44";
 		rLen = 0;
-		rLoc = 2043;
+		rLoc = 1994;
 		rType = 0;
 		vrLen = 1875;
 		vrLoc = 913;
@@ -4187,7 +4195,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 65";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -4197,7 +4205,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 44";
 		rLen = 0;
-		rLoc = 2043;
+		rLoc = 1994;
 		rType = 0;
 		vrLen = 1875;
 		vrLoc = 913;
@@ -4207,7 +4215,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 65";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -4227,7 +4235,7 @@
 		fRef = 825F734B11B6AFEC003659A3 /* OCStream.h */;
 		name = "OCStream.h: 46";
 		rLen = 0;
-		rLoc = 2268;
+		rLoc = 2305;
 		rType = 0;
 		vrLen = 2005;
 		vrLoc = 0;
@@ -4247,7 +4255,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 44";
 		rLen = 0;
-		rLoc = 2043;
+		rLoc = 1994;
 		rType = 0;
 		vrLen = 1875;
 		vrLoc = 913;
@@ -4257,7 +4265,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 52";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 2118;
 		vrLoc = 544;
@@ -4267,7 +4275,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 52";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -4277,7 +4285,7 @@
 		fRef = 825F734B11B6AFEC003659A3 /* OCStream.h */;
 		name = "OCStream.h: 46";
 		rLen = 0;
-		rLoc = 2268;
+		rLoc = 2305;
 		rType = 0;
 		vrLen = 2005;
 		vrLoc = 0;
@@ -4287,7 +4295,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 112";
 		rLen = 0;
-		rLoc = 7135;
+		rLoc = 7718;
 		rType = 0;
 		vrLen = 1828;
 		vrLoc = 3760;
@@ -4296,7 +4304,7 @@
 		isa = PBXTextBookmark;
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		rLen = 0;
-		rLoc = 45;
+		rLoc = 43;
 		rType = 1;
 	};
 	825F75F211B6FBEC003659A3 /* PBXTextBookmark */ = {
@@ -4304,7 +4312,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 41";
 		rLen = 0;
-		rLoc = 1943;
+		rLoc = 1894;
 		rType = 0;
 		vrLen = 2118;
 		vrLoc = 670;
@@ -4314,7 +4322,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 55";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -4334,7 +4342,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 112";
 		rLen = 0;
-		rLoc = 7135;
+		rLoc = 7718;
 		rType = 0;
 		vrLen = 1828;
 		vrLoc = 3760;
@@ -4344,7 +4352,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 40";
 		rLen = 0;
-		rLoc = 1942;
+		rLoc = 1893;
 		rType = 0;
 		vrLen = 2118;
 		vrLoc = 670;
@@ -4354,7 +4362,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 44";
 		rLen = 0;
-		rLoc = 2043;
+		rLoc = 1994;
 		rType = 0;
 		vrLen = 2044;
 		vrLoc = 744;
@@ -4364,7 +4372,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 55";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -4374,7 +4382,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 44";
 		rLen = 0;
-		rLoc = 2043;
+		rLoc = 1994;
 		rType = 0;
 		vrLen = 2044;
 		vrLoc = 744;
@@ -4384,7 +4392,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 117";
 		rLen = 0;
-		rLoc = 7330;
+		rLoc = 7913;
 		rType = 0;
 		vrLen = 1790;
 		vrLoc = 3798;
@@ -4394,7 +4402,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 117";
 		rLen = 0;
-		rLoc = 7330;
+		rLoc = 7913;
 		rType = 0;
 		vrLen = 1828;
 		vrLoc = 3760;
@@ -4404,7 +4412,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 55";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -4434,7 +4442,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 33";
 		rLen = 0;
-		rLoc = 1885;
+		rLoc = 1836;
 		rType = 0;
 		vrLen = 2118;
 		vrLoc = 670;
@@ -4444,7 +4452,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 33";
 		rLen = 0;
-		rLoc = 1885;
+		rLoc = 1836;
 		rType = 0;
 		vrLen = 2118;
 		vrLoc = 670;
@@ -4454,7 +4462,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 55";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -4493,7 +4501,7 @@
 		isa = PBXTextBookmark;
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		rLen = 0;
-		rLoc = 45;
+		rLoc = 43;
 		rType = 1;
 	};
 	825F761E11B6FF7B003659A3 /* PBXTextBookmark */ = {
@@ -4501,7 +4509,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 41";
 		rLen = 0;
-		rLoc = 1943;
+		rLoc = 1894;
 		rType = 0;
 		vrLen = 2191;
 		vrLoc = 597;
@@ -4511,7 +4519,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 55";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -4521,7 +4529,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 54";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 2044;
 		vrLoc = 744;
@@ -4531,7 +4539,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 55";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -4541,7 +4549,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 54";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 2191;
 		vrLoc = 597;
@@ -4551,7 +4559,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 55";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -4560,8 +4568,8 @@
 		isa = PBXTextBookmark;
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 30";
-		rLen = 1594;
-		rLoc = 1757;
+		rLen = 1583;
+		rLoc = 1708;
 		rType = 0;
 		vrLen = 2191;
 		vrLoc = 597;
@@ -4571,7 +4579,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 55";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -4581,7 +4589,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 55";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 2191;
 		vrLoc = 597;
@@ -4591,7 +4599,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 55";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -4601,7 +4609,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 117";
 		rLen = 0;
-		rLoc = 7291;
+		rLoc = 7874;
 		rType = 0;
 		vrLen = 1829;
 		vrLoc = 3823;
@@ -4611,7 +4619,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 29";
 		rLen = 0;
-		rLoc = 1756;
+		rLoc = 1707;
 		rType = 0;
 		vrLen = 2244;
 		vrLoc = 544;
@@ -4621,7 +4629,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 54";
 		rLen = 0;
-		rLoc = 2679;
+		rLoc = 2630;
 		rType = 0;
 		vrLen = 2141;
 		vrLoc = 597;
@@ -4631,7 +4639,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 61";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -4641,7 +4649,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 56";
 		rLen = 0;
-		rLoc = 2679;
+		rLoc = 2630;
 		rType = 0;
 		vrLen = 1227;
 		vrLoc = 1561;
@@ -4651,7 +4659,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 70";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -4661,7 +4669,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 73";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 1178;
 		vrLoc = 1610;
@@ -4671,7 +4679,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 73";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -4680,8 +4688,8 @@
 		isa = PBXTextBookmark;
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 68";
-		rLen = 519;
-		rLoc = 2798;
+		rLen = 508;
+		rLoc = 2749;
 		rType = 0;
 		vrLen = 1227;
 		vrLoc = 1561;
@@ -4691,7 +4699,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 73";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -4711,7 +4719,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 29";
 		rLen = 0;
-		rLoc = 1756;
+		rLoc = 1707;
 		rType = 0;
 		vrLen = 1262;
 		vrLoc = 1526;
@@ -4741,7 +4749,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 73";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -4761,7 +4769,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 73";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -4801,7 +4809,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 73";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -4841,7 +4849,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 73";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -4861,7 +4869,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 29";
 		rLen = 0;
-		rLoc = 1756;
+		rLoc = 1707;
 		rType = 0;
 		vrLen = 1262;
 		vrLoc = 1526;
@@ -4871,7 +4879,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 77";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 964;
 		vrLoc = 1824;
@@ -4881,7 +4889,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 79";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -4901,7 +4909,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 59";
 		rLen = 0;
-		rLoc = 2679;
+		rLoc = 2630;
 		rType = 0;
 		vrLen = 1157;
 		vrLoc = 1631;
@@ -4931,7 +4939,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 83";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -4961,7 +4969,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 59";
 		rLen = 0;
-		rLoc = 2679;
+		rLoc = 2630;
 		rType = 0;
 		vrLen = 1157;
 		vrLoc = 1631;
@@ -4971,7 +4979,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 74";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 1131;
 		vrLoc = 1657;
@@ -4981,7 +4989,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 74";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -5011,7 +5019,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 77";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 1131;
 		vrLoc = 1657;
@@ -5041,7 +5049,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 147";
 		rLen = 0;
-		rLoc = 7271;
+		rLoc = 7854;
 		rType = 0;
 		vrLen = 2102;
 		vrLoc = 3831;
@@ -5051,7 +5059,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 77";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -5071,7 +5079,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 72";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 964;
 		vrLoc = 1824;
@@ -5098,7 +5106,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 77";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -5128,7 +5136,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 77";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -5168,7 +5176,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 72";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 1131;
 		vrLoc = 1657;
@@ -5178,7 +5186,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 54";
 		rLen = 0;
-		rLoc = 2679;
+		rLoc = 2630;
 		rType = 0;
 		vrLen = 1131;
 		vrLoc = 1657;
@@ -5188,7 +5196,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 77";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -5208,7 +5216,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 72";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 1131;
 		vrLoc = 1657;
@@ -5218,7 +5226,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 72";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 1059;
 		vrLoc = 1729;
@@ -5228,7 +5236,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 77";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -5288,7 +5296,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 50";
 		rLen = 0;
-		rLoc = 2679;
+		rLoc = 2630;
 		rType = 0;
 		vrLen = 2531;
 		vrLoc = 0;
@@ -5298,7 +5306,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 72";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 1131;
 		vrLoc = 1657;
@@ -5308,7 +5316,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 76";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -5338,7 +5346,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 156";
 		rLen = 0;
-		rLoc = 7308;
+		rLoc = 7891;
 		rType = 0;
 		vrLen = 1864;
 		vrLoc = 4199;
@@ -5348,7 +5356,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 78";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 788;
 		vrLoc = 2000;
@@ -5358,7 +5366,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 69";
 		rLen = 0;
-		rLoc = 2834;
+		rLoc = 2785;
 		rType = 0;
 		vrLen = 1059;
 		vrLoc = 1729;
@@ -5368,7 +5376,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 85";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -5378,7 +5386,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 70";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 791;
 		vrLoc = 1997;
@@ -5388,7 +5396,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 85";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -5398,7 +5406,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 61";
 		rLen = 0;
-		rLoc = 2679;
+		rLoc = 2630;
 		rType = 0;
 		vrLen = 791;
 		vrLoc = 1997;
@@ -5408,7 +5416,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 156";
 		rLen = 0;
-		rLoc = 7308;
+		rLoc = 7891;
 		rType = 0;
 		vrLen = 1864;
 		vrLoc = 4199;
@@ -5428,7 +5436,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 85";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -5448,7 +5456,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 61";
 		rLen = 0;
-		rLoc = 2679;
+		rLoc = 2630;
 		rType = 0;
 		vrLen = 791;
 		vrLoc = 1997;
@@ -5458,7 +5466,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 56";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 2044;
 		vrLoc = 744;
@@ -5468,7 +5476,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 58";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -5478,7 +5486,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 31";
 		rLen = 0;
-		rLoc = 1781;
+		rLoc = 1732;
 		rType = 0;
 		vrLen = 2118;
 		vrLoc = 670;
@@ -5488,7 +5496,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 38";
 		rLen = 0;
-		rLoc = 1909;
+		rLoc = 1860;
 		rType = 0;
 		vrLen = 2044;
 		vrLoc = 744;
@@ -5498,7 +5506,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 58";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -5528,7 +5536,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 52";
 		rLen = 0;
-		rLoc = 2724;
+		rLoc = 2675;
 		rType = 0;
 		vrLen = 2118;
 		vrLoc = 670;
@@ -5538,7 +5546,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 62";
 		rLen = 0;
-		rLoc = 3352;
+		rLoc = 3292;
 		rType = 0;
 		vrLen = 2041;
 		vrLoc = 747;
@@ -5548,7 +5556,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 59";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -5568,7 +5576,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 35";
 		rLen = 0;
-		rLoc = 1885;
+		rLoc = 1836;
 		rType = 0;
 		vrLen = 2041;
 		vrLoc = 747;
@@ -5608,7 +5616,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 58";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -5648,7 +5656,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 41";
 		rLen = 0;
-		rLoc = 1957;
+		rLoc = 1908;
 		rType = 0;
 		vrLen = 2044;
 		vrLoc = 744;
@@ -5678,7 +5686,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 58";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -5698,7 +5706,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 39";
 		rLen = 0;
-		rLoc = 1940;
+		rLoc = 1891;
 		rType = 0;
 		vrLen = 2118;
 		vrLoc = 670;
@@ -5738,7 +5746,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 58";
 		rLen = 0;
-		rLoc = 3335;
+		rLoc = 3275;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -5778,7 +5786,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 57";
 		rLen = 0;
-		rLoc = 3317;
+		rLoc = 3257;
 		rType = 0;
 		vrLen = 2510;
 		vrLoc = 0;
@@ -5788,7 +5796,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 33";
 		rLen = 0;
-		rLoc = 1885;
+		rLoc = 1836;
 		rType = 0;
 		vrLen = 2359;
 		vrLoc = 261;
@@ -5858,7 +5866,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 35";
 		rLen = 0;
-		rLoc = 1885;
+		rLoc = 1836;
 		rType = 0;
 		vrLen = 2118;
 		vrLoc = 670;
@@ -5868,7 +5876,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 42";
 		rLen = 0;
-		rLoc = 1942;
+		rLoc = 1893;
 		rType = 0;
 		vrLen = 2118;
 		vrLoc = 744;
@@ -5928,7 +5936,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 37";
 		rLen = 0;
-		rLoc = 1782;
+		rLoc = 1733;
 		rType = 0;
 		vrLen = 2059;
 		vrLoc = 831;
@@ -5938,7 +5946,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 64";
 		rLen = 0;
-		rLoc = 2834;
+		rLoc = 2785;
 		rType = 0;
 		vrLen = 1754;
 		vrLoc = 1379;
@@ -5978,7 +5986,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 44";
 		rLen = 0;
-		rLoc = 2044;
+		rLoc = 1995;
 		rType = 0;
 		vrLen = 1491;
 		vrLoc = 1461;
@@ -6138,7 +6146,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 44";
 		rLen = 0;
-		rLoc = 2044;
+		rLoc = 1995;
 		rType = 0;
 		vrLen = 1573;
 		vrLoc = 1379;
@@ -6148,7 +6156,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 58";
 		rLen = 0;
-		rLoc = 3243;
+		rLoc = 3209;
 		rType = 0;
 		vrLen = 1642;
 		vrLoc = 1219;
@@ -6168,7 +6176,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 57";
 		rLen = 0;
-		rLoc = 2597;
+		rLoc = 2548;
 		rType = 0;
 		vrLen = 1550;
 		vrLoc = 1632;
@@ -6188,7 +6196,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 66";
 		rLen = 0;
-		rLoc = 2833;
+		rLoc = 2784;
 		rType = 0;
 		vrLen = 1550;
 		vrLoc = 1632;
@@ -6208,7 +6216,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 56";
 		rLen = 0;
-		rLoc = 2597;
+		rLoc = 2548;
 		rType = 0;
 		vrLen = 1526;
 		vrLoc = 1632;
@@ -6228,7 +6236,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 67";
 		rLen = 0;
-		rLoc = 3243;
+		rLoc = 3209;
 		rType = 0;
 		vrLen = 1511;
 		vrLoc = 1631;
@@ -6247,8 +6255,8 @@
 		isa = PBXTextBookmark;
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 52";
-		rLen = 969;
-		rLoc = 2382;
+		rLen = 958;
+		rLoc = 2333;
 		rType = 0;
 		vrLen = 1574;
 		vrLoc = 1631;
@@ -6267,8 +6275,8 @@
 		isa = PBXTextBookmark;
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 62";
-		rLen = 669;
-		rLoc = 2682;
+		rLen = 658;
+		rLoc = 2633;
 		rType = 0;
 		vrLen = 1630;
 		vrLoc = 1631;
@@ -6288,7 +6296,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 52";
 		rLen = 0;
-		rLoc = 2414;
+		rLoc = 2365;
 		rType = 0;
 		vrLen = 1630;
 		vrLoc = 1631;
@@ -6358,7 +6366,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 52";
 		rLen = 0;
-		rLoc = 2414;
+		rLoc = 2365;
 		rType = 0;
 		vrLen = 1651;
 		vrLoc = 1610;
@@ -6368,7 +6376,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 67";
 		rLen = 0;
-		rLoc = 3243;
+		rLoc = 3209;
 		rType = 0;
 		vrLen = 1630;
 		vrLoc = 1631;
@@ -6419,7 +6427,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 40;
+		rLoc = 38;
 		rType = 1;
 	};
 	825F7A7B11B7FF9E003659A3 /* PBXTextBookmark */ = {
@@ -6427,7 +6435,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 33";
 		rLen = 0;
-		rLoc = 1885;
+		rLoc = 1836;
 		rType = 0;
 		vrLen = 1737;
 		vrLoc = 1579;
@@ -6467,7 +6475,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 33";
 		rLen = 0;
-		rLoc = 1885;
+		rLoc = 1836;
 		rType = 0;
 		vrLen = 1737;
 		vrLoc = 1579;
@@ -6487,7 +6495,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 33";
 		rLen = 0;
-		rLoc = 1885;
+		rLoc = 1836;
 		rType = 0;
 		vrLen = 1702;
 		vrLoc = 1579;
@@ -6507,7 +6515,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 33";
 		rLen = 0;
-		rLoc = 1885;
+		rLoc = 1836;
 		rType = 0;
 		vrLen = 1702;
 		vrLoc = 1579;
@@ -6527,7 +6535,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 65";
 		rLen = 0;
-		rLoc = 3041;
+		rLoc = 2992;
 		rType = 0;
 		vrLen = 1770;
 		vrLoc = 1561;
@@ -6547,7 +6555,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 65";
 		rLen = 0;
-		rLoc = 3041;
+		rLoc = 2992;
 		rType = 0;
 		vrLen = 1752;
 		vrLoc = 1579;
@@ -6657,7 +6665,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 51";
 		rLen = 0;
-		rLoc = 2575;
+		rLoc = 2526;
 		rType = 0;
 		vrLen = 1527;
 		vrLoc = 1527;
@@ -6687,7 +6695,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 231";
 		rLen = 0;
-		rLoc = 7291;
+		rLoc = 7874;
 		rType = 0;
 		vrLen = 1158;
 		vrLoc = 2325;
@@ -6717,7 +6725,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 51";
 		rLen = 0;
-		rLoc = 2575;
+		rLoc = 2526;
 		rType = 0;
 		vrLen = 1528;
 		vrLoc = 1526;
@@ -6727,7 +6735,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 63";
 		rLen = 0;
-		rLoc = 3275;
+		rLoc = 3215;
 		rType = 0;
 		vrLen = 1605;
 		vrLoc = 1527;
@@ -6751,9 +6759,9 @@
 	};
 	825F7ADC11B8085A003659A3 /* OCArray.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1105, 1526}}";
-			sepNavSelRange = "{1435, 0}";
-			sepNavVisRange = "{0, 1779}";
+			sepNavIntBoundsRect = "{{0, 0}, {1149, 1610}}";
+			sepNavSelRange = "{3241, 0}";
+			sepNavVisRange = "{2916, 629}";
 		};
 	};
 	825F7AF311B80AEA003659A3 /* PBXTextBookmark */ = {
@@ -6781,7 +6789,7 @@
 		fRef = 825F734B11B6AFEC003659A3 /* OCStream.h */;
 		name = "OCStream.h: 63";
 		rLen = 21;
-		rLoc = 2235;
+		rLoc = 2272;
 		rType = 0;
 		vrLen = 1244;
 		vrLoc = 1138;
@@ -6791,7 +6799,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 30";
 		rLen = 0;
-		rLoc = 1756;
+		rLoc = 1707;
 		rType = 0;
 		vrLen = 1609;
 		vrLoc = 1610;
@@ -6941,7 +6949,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 30";
 		rLen = 0;
-		rLoc = 1756;
+		rLoc = 1707;
 		rType = 0;
 		vrLen = 1640;
 		vrLoc = 1579;
@@ -6950,8 +6958,8 @@
 		isa = PBXTextBookmark;
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 65";
-		rLen = 59;
-		rLoc = 3216;
+		rLen = 32;
+		rLoc = 3183;
 		rType = 0;
 		vrLen = 1577;
 		vrLoc = 1579;
@@ -6971,7 +6979,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 53";
 		rLen = 0;
-		rLoc = 2597;
+		rLoc = 2548;
 		rType = 0;
 		vrLen = 1577;
 		vrLoc = 1579;
@@ -6991,7 +6999,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 48";
 		rLen = 0;
-		rLoc = 2381;
+		rLoc = 2332;
 		rType = 0;
 		vrLen = 1595;
 		vrLoc = 1561;
@@ -7101,7 +7109,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 63";
 		rLen = 0;
-		rLoc = 3112;
+		rLoc = 3077;
 		rType = 0;
 		vrLen = 1635;
 		vrLoc = 1561;
@@ -7111,7 +7119,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 63";
 		rLen = 0;
-		rLoc = 3112;
+		rLoc = 3077;
 		rType = 0;
 		vrLen = 1616;
 		vrLoc = 1579;
@@ -7131,7 +7139,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 65";
 		rLen = 0;
-		rLoc = 3275;
+		rLoc = 3215;
 		rType = 0;
 		vrLen = 1608;
 		vrLoc = 1561;
@@ -7251,7 +7259,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 53";
 		rLen = 0;
-		rLoc = 2597;
+		rLoc = 2548;
 		rType = 0;
 		vrLen = 1608;
 		vrLoc = 1561;
@@ -7261,7 +7269,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 66";
 		rLen = 0;
-		rLoc = 3313;
+		rLoc = 3253;
 		rType = 0;
 		vrLen = 1630;
 		vrLoc = 1527;
@@ -7281,7 +7289,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 66";
 		rLen = 0;
-		rLoc = 3313;
+		rLoc = 3253;
 		rType = 0;
 		vrLen = 1630;
 		vrLoc = 1527;
@@ -7491,7 +7499,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 66";
 		rLen = 0;
-		rLoc = 3313;
+		rLoc = 3253;
 		rType = 0;
 		vrLen = 1631;
 		vrLoc = 1526;
@@ -7500,8 +7508,8 @@
 		isa = PBXTextBookmark;
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 69";
-		rLen = 275;
-		rLoc = 3042;
+		rLen = 264;
+		rLoc = 2993;
 		rType = 0;
 		vrLen = 1695;
 		vrLoc = 1676;
@@ -7561,7 +7569,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 72";
 		rLen = 0;
-		rLoc = 3275;
+		rLoc = 3215;
 		rType = 0;
 		vrLen = 1719;
 		vrLoc = 1652;
@@ -7571,7 +7579,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 72";
 		rLen = 0;
-		rLoc = 3275;
+		rLoc = 3215;
 		rType = 0;
 		vrLen = 1722;
 		vrLoc = 1676;
@@ -7706,7 +7714,7 @@
 		vrLen = 0;
 		vrLoc = 0;
 	};
-	825F7BD811B8427F003659A3 /* Objective-Curry.m:70 */ = {
+	825F7BD811B8427F003659A3 /* Objective-Curry.m:68 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -7718,7 +7726,7 @@
 		functionName = "main()";
 		hitCount = 1;
 		ignoreCount = 0;
-		lineNumber = 70;
+		lineNumber = 68;
 		location = "Objective-Curry";
 		modificationTime = 297288325.728703;
 		originalNumberOfMultipleMatches = 1;
@@ -7789,7 +7797,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 27";
 		rLen = 0;
-		rLoc = 1487;
+		rLoc = 1469;
 		rType = 0;
 		vrLen = 1720;
 		vrLoc = 1587;
@@ -7799,12 +7807,92 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
 		name = "Objective-Curry.m: 72";
 		rLen = 0;
-		rLoc = 3162;
+		rLoc = 3127;
 		rType = 0;
 		vrLen = 1765;
 		vrLoc = 1587;
 	};
 	825F7BE411B842E3003659A3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 825F734B11B6AFEC003659A3 /* OCStream.h */;
+		name = "OCStream.h: 34";
+		rLen = 0;
+		rLoc = 1580;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	825F7BF911B8444E003659A3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 825F7ADB11B8085A003659A3 /* OCArray.h */;
+		name = "OCArray.h: 25";
+		rLen = 0;
+		rLoc = 1435;
+		rType = 0;
+		vrLen = 1833;
+		vrLoc = 0;
+	};
+	825F7BFA11B8444E003659A3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 825F7ADC11B8085A003659A3 /* OCArray.m */;
+		name = "OCArray.m: 11";
+		rLen = 0;
+		rLoc = 542;
+		rType = 0;
+		vrLen = 1452;
+		vrLoc = 522;
+	};
+	825F7BFB11B8444E003659A3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 825F734B11B6AFEC003659A3 /* OCStream.h */;
+		name = "OCStream.h: 64";
+		rLen = 36;
+		rLoc = 2235;
+		rType = 0;
+		vrLen = 1246;
+		vrLoc = 1060;
+	};
+	825F7BFC11B8444E003659A3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32A70AAB03705E1F00C91783 /* Objective-Curry_Prefix.pch */;
+		name = "Objective-Curry_Prefix.pch: 25";
+		rLen = 0;
+		rLoc = 1435;
+		rType = 0;
+		vrLen = 1549;
+		vrLoc = 0;
+	};
+	825F7BFD11B8444E003659A3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
+		name = "OCStream.m: 252";
+		rLen = 0;
+		rLoc = 7482;
+		rType = 0;
+		vrLen = 1458;
+		vrLoc = 6514;
+	};
+	825F7BFE11B8444E003659A3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
+		name = "Objective-Curry.m: 68";
+		rLen = 0;
+		rLoc = 3067;
+		rType = 0;
+		vrLen = 1781;
+		vrLoc = 1536;
+	};
+	825F7BFF11B8444E003659A3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* Objective-Curry.m */;
+		name = "Objective-Curry.m: 72";
+		rLen = 0;
+		rLoc = 3215;
+		rType = 0;
+		vrLen = 1754;
+		vrLoc = 1538;
+	};
+	825F7C0011B8444E003659A3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 825F734B11B6AFEC003659A3 /* OCStream.h */;
 		name = "OCStream.h: 34";

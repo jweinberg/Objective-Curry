@@ -297,7 +297,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>352 55 1379 823 0 0 1440 878 </string>
+						<string>62 55 1379 823 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -330,23 +330,23 @@
 												<key>_historyCapacity</key>
 												<integer>0</integer>
 												<key>bookmark</key>
-												<string>825F7BE311B842E3003659A3</string>
+												<string>825F7BFF11B8444E003659A3</string>
 												<key>history</key>
 												<array>
 													<string>825F716A11B597DB003659A3</string>
 													<string>825F71D711B5A71B003659A3</string>
 													<string>825F729B11B5B4AF003659A3</string>
 													<string>825F7A7711B7FF9E003659A3</string>
-													<string>825F7BBC11B83DC6003659A3</string>
 													<string>825F7BC011B83DC6003659A3</string>
 													<string>825F7BC111B83DC6003659A3</string>
 													<string>825F7BDC11B842E3003659A3</string>
 													<string>825F7BDD11B842E3003659A3</string>
-													<string>825F7BDE11B842E3003659A3</string>
-													<string>825F7BDF11B842E3003659A3</string>
-													<string>825F7BE011B842E3003659A3</string>
-													<string>825F7BE111B842E3003659A3</string>
-													<string>825F7BE211B842E3003659A3</string>
+													<string>825F7BF911B8444E003659A3</string>
+													<string>825F7BFA11B8444E003659A3</string>
+													<string>825F7BFB11B8444E003659A3</string>
+													<string>825F7BFC11B8444E003659A3</string>
+													<string>825F7BFD11B8444E003659A3</string>
+													<string>825F7BFE11B8444E003659A3</string>
 												</array>
 											</dict>
 											<key>SplitCount</key>
@@ -360,7 +360,7 @@
 										<key>Frame</key>
 										<string>{{0, 0}, {1166, 711}}</string>
 										<key>RubberWindowFrame</key>
-										<string>352 55 1379 823 0 0 1440 878 </string>
+										<string>62 55 1379 823 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXNavigatorGroup</string>
@@ -385,7 +385,7 @@
 												<key>_historyCapacity</key>
 												<integer>0</integer>
 												<key>bookmark</key>
-												<string>825F7BE411B842E3003659A3</string>
+												<string>825F7C0011B8444E003659A3</string>
 												<key>history</key>
 												<array>
 													<string>825F716A11B597DB003659A3</string>
@@ -408,7 +408,7 @@
 										<key>Frame</key>
 										<string>{{1171, 0}, {0, 711}}</string>
 										<key>RubberWindowFrame</key>
-										<string>352 55 1379 823 0 0 1440 878 </string>
+										<string>62 55 1379 823 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXNavigatorGroup</string>
@@ -432,7 +432,7 @@
 								<key>Frame</key>
 								<string>{{0, 716}, {1171, 66}}</string>
 								<key>RubberWindowFrame</key>
-								<string>352 55 1379 823 0 0 1440 878 </string>
+								<string>62 55 1379 823 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -603,13 +603,13 @@
 		<string>825F7A8011B7FF9E003659A3</string>
 		<string>825F7A8111B7FF9E003659A3</string>
 		<string>825F714D11B59708003659A3</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>825F7AFB11B80AEA003659A3</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/jweinberg/Developer/Objective-Curry/Objective-Curry.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>352 55 1379 823 0 0 1440 878 </string>
+	<string>62 55 1379 823 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

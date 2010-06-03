@@ -240,6 +240,23 @@
     return retStream;    
 }
 
+- (OCStream*)zip:(OCStream*)aStream;
+{
+    OCStream *retStream = [OCStream streamWithValue:[NSArray arrayWithObjects:[self head], [aStream head], nil]
+                                          generator:^OCStream*
+                           {   
+                               return [[self tail] zip:[aStream tail]];
+                           }];
+    if (retStream)
+    {
+        retStream->_dirtyHead = _dirtyHead;
+        retStream->_hasDefiniteLength = _hasDefiniteLength;
+        if (_hasDefiniteLength)
+            retStream->_length = _length;
+    }
+    return retStream;
+}
+
 - (OCStream*)generate:(int)count performBlock:(void (^)(id))block;
 {
     OCStream * newStream = self;

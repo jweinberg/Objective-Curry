@@ -24,8 +24,6 @@
  SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 #import <Foundation/Foundation.h>
-#import "curry.h"
-#import "NSArray+Functional.h"
 #import "OCStream.h"
 #import "OCArray.h"
 
@@ -67,11 +65,11 @@ int main (int argc, const char * argv[]) {
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
         
     OCStream * stream = [[[fib(1,1) filter:^(id arg1) {return [NSNumber numberWithFloat:[arg1 longLongValue] % 2 == 0];}]  map:^(id arg1) {return [NSString stringWithFormat:@"WOO:%@", arg1];}] map:^(id arg1) {return [arg1 lowercaseString];}];
-    NSArray * array = [OCArray arrayWithStream:[dictStream() take:5]];
+    NSArray * array = [OCArray arrayWithStream:[[dictStream() zip:from(0)] take:5]];
     
     NSLog(@"%@", [[stream take:10] drop:5]);
-    [array setValue:@"Really?" forKey:@"valueTest"];
-    for(NSNumber * num in [array valueForKey:@"valueTest"])
+   // [array setValue:@"Really?" forKey:@"valueTest"];
+    for(NSNumber * num in array)
        NSLog(@"enumerated: %@", num);
    
     [pool drain];
