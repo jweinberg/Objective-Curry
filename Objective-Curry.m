@@ -30,16 +30,17 @@
 OCStream * from(int n)
 {
     return [OCStream streamWithValue:[NSNumber numberWithInt:n] 
-                           generator:^OCStream*(id generatorBlock, id val)
+                           generator:^(id generatorBlock, id val)
                             {
-                                return [OCStream streamWithValue:[NSNumber numberWithInt:[val integerValue] + 1] generator:generatorBlock];
+                                return [OCStream streamWithValue:[NSNumber numberWithInt:[val integerValue] + 1] 
+                                                       generator:generatorBlock];
                             }];
 }
 
 OCStream * seive(OCStream * s)
 {
     return [OCStream streamWithValue:[s head] 
-                                  generator:^OCStream*(id generatorBlock, id val)
+                            generator:^(id generatorBlock, id val)
              {
                  return seive([[s tail] filter:^(id arg1)
                                                 {
@@ -53,8 +54,12 @@ int main (int argc, const char * argv[]) {
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
         
     OCStream * stream = seive(from(2));
-    [stream generate:100 performBlock:^(id arg1) {NSLog(@"Generated: %@", arg1);}];
-
+    
+    for(NSNumber * num in [[[stream drop:5] take:100] enumerator])
+    {
+       NSLog(@"enumerated: %@", num);
+    }
+   
     [pool drain];
     return 0;
 }

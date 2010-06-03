@@ -79,7 +79,10 @@
 
 - (NSEnumerator*)enumerator;
 {
-    return [[[OCStreamEnumerator alloc] initWithStream:self] autorelease];
+    if (_hasDefiniteLength)
+        return [[[OCStreamEnumerator alloc] initWithStream:self] autorelease];
+    else
+        return nil;
 }
 
 - (id)head;
@@ -100,15 +103,21 @@
 
 - (OCStream*)take:(int)count;
 {
-    return [OCStream streamWithValue:[self head]
+    OCStream *retStream = [OCStream streamWithValue:[self head]
                            generator:^OCStream*(id generatorBlock, id val)
                                         {
                                             OCStream * stream = _nextValue(_nextValue,val);
-                                            if (count <= 0)
+                                            if (count <= 1)
                                                 return nil;
                                              
                                             return [stream take:count-1];
                                         }];
+    if (retStream)
+    {
+        retStream->_hasDefiniteLength = YES;
+        retStream->_dirtyHead = _dirtyHead;
+    }
+    return retStream;
 }
 
 - (OCStream*)drop:(int)count;
@@ -126,13 +135,20 @@
                                                             }
                                                             return stream;
                                                         }];
-    retStream->_dirtyHead = YES;
+    if (retStream)
+    {
+        retStream->_dirtyHead = YES;
+        retStream->_hasDefiniteLength = _hasDefiniteLength;
+    }
     return retStream;
 }
 
 - (OCStream*)tail;
 {
-    return _nextValue(_nextValue, [self head]);
+    OCStream *retStream = _nextValue(_nextValue, [self head]);
+    if (retStream)
+        retStream->_hasDefiniteLength = _hasDefiniteLength;
+    return retStream;
 }
 
 - (OCStream*)filter:(id(^)(id))block;
@@ -155,8 +171,13 @@
                                                 } 
                                                 return [stream filter:block];
                                             }];
-    if (![block([self head]) boolValue])
-        retStream->_dirtyHead = YES;
+    if (retStream)
+    {
+        if (![block([self head]) boolValue])
+            retStream->_dirtyHead = YES;
+    
+        retStream->_hasDefiniteLength = _hasDefiniteLength;
+    }
     return retStream;
 }
 
