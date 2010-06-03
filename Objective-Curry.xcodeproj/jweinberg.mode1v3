@@ -297,7 +297,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>76 55 1379 823 0 0 1440 878 </string>
+						<string>0 55 1379 823 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -330,7 +330,7 @@
 												<key>_historyCapacity</key>
 												<integer>0</integer>
 												<key>bookmark</key>
-												<string>825F7BAD11B83508003659A3</string>
+												<string>825F7BB811B835E0003659A3</string>
 												<key>history</key>
 												<array>
 													<string>825F716A11B597DB003659A3</string>
@@ -338,12 +338,12 @@
 													<string>825F729B11B5B4AF003659A3</string>
 													<string>825F7A7711B7FF9E003659A3</string>
 													<string>825F7B5911B820D4003659A3</string>
-													<string>825F7B5D11B820D4003659A3</string>
 													<string>825F7B7F11B826DF003659A3</string>
-													<string>825F7B8411B826ED003659A3</string>
-													<string>825F7B9511B82945003659A3</string>
-													<string>825F7BAB11B83508003659A3</string>
-													<string>825F7BAC11B83508003659A3</string>
+													<string>825F7BB311B835E0003659A3</string>
+													<string>825F7BB411B835E0003659A3</string>
+													<string>825F7BB511B835E0003659A3</string>
+													<string>825F7BB611B835E0003659A3</string>
+													<string>825F7BB711B835E0003659A3</string>
 												</array>
 											</dict>
 											<key>SplitCount</key>
@@ -357,7 +357,7 @@
 										<key>Frame</key>
 										<string>{{0, 0}, {1166, 711}}</string>
 										<key>RubberWindowFrame</key>
-										<string>76 55 1379 823 0 0 1440 878 </string>
+										<string>0 55 1379 823 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXNavigatorGroup</string>
@@ -382,7 +382,7 @@
 												<key>_historyCapacity</key>
 												<integer>0</integer>
 												<key>bookmark</key>
-												<string>825F7BAE11B83508003659A3</string>
+												<string>825F7BB911B835E0003659A3</string>
 												<key>history</key>
 												<array>
 													<string>825F716A11B597DB003659A3</string>
@@ -405,7 +405,7 @@
 										<key>Frame</key>
 										<string>{{1171, 0}, {0, 711}}</string>
 										<key>RubberWindowFrame</key>
-										<string>76 55 1379 823 0 0 1440 878 </string>
+										<string>0 55 1379 823 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXNavigatorGroup</string>
@@ -429,7 +429,7 @@
 								<key>Frame</key>
 								<string>{{0, 716}, {1171, 66}}</string>
 								<key>RubberWindowFrame</key>
-								<string>76 55 1379 823 0 0 1440 878 </string>
+								<string>0 55 1379 823 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -606,7 +606,7 @@
 		<string>/Users/jweinberg/Developer/Objective-Curry/Objective-Curry.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>76 55 1379 823 0 0 1440 878 </string>
+	<string>0 55 1379 823 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

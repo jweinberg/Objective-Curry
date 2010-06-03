@@ -89,4 +89,9 @@
     _stream = [newStream retain];
 }
 
+- (NSArray *)valueForKey:(NSString *)key;
+{
+    return [OCArray arrayWithStream:[_stream map:^(id arg1) {return [arg1 valueForKey:key];}]];
+}
+
 @end

@@ -69,7 +69,7 @@ int main (int argc, const char * argv[]) {
     NSArray * array = [OCArray arrayWithStream:[dictStream() take:5]];
     
     [array setValue:@"Really?" forKey:@"valueTest"];
-    for(NSNumber * num in array)
+    for(NSNumber * num in [array valueForKey:@"valueTest"])
        NSLog(@"enumerated: %@", num);
    
     [pool drain];
