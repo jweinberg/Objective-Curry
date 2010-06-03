@@ -20,7 +20,7 @@
 {
     if ((self = [super init]))
     {
-        _stream = aStream;
+        _stream = [aStream retain];
     }
     return self;
 }
