@@ -272,7 +272,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>3</integer>
+									<integer>4</integer>
 									<integer>2</integer>
 									<integer>1</integer>
 									<integer>0</integer>
@@ -319,7 +319,7 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20306471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Objective-Curry.m</string>
+										<string>OCStream.h</string>
 										<key>PBXSplitModuleInNavigatorKey</key>
 										<dict>
 											<key>Split0</key>
@@ -327,20 +327,21 @@
 												<key>PBXProjectModuleGUID</key>
 												<string>1CE0B20406471E060097A5F4</string>
 												<key>PBXProjectModuleLabel</key>
-												<string>Objective-Curry.m</string>
+												<string>OCStream.h</string>
 												<key>_historyCapacity</key>
 												<integer>0</integer>
 												<key>bookmark</key>
-												<string>825F7A8E11B7FFF6003659A3</string>
+												<string>825F7AB611B8062F003659A3</string>
 												<key>history</key>
 												<array>
 													<string>825F716A11B597DB003659A3</string>
 													<string>825F71D711B5A71B003659A3</string>
 													<string>825F729B11B5B4AF003659A3</string>
 													<string>825F7A7711B7FF9E003659A3</string>
-													<string>825F7A7811B7FF9E003659A3</string>
+													<string>825F7A9A11B80537003659A3</string>
+													<string>825F7A9B11B80537003659A3</string>
+													<string>825F7AAB11B805FF003659A3</string>
 													<string>825F7A7911B7FF9E003659A3</string>
-													<string>825F7A7A11B7FF9E003659A3</string>
 												</array>
 											</dict>
 											<key>SplitCount</key>
@@ -379,7 +380,7 @@
 												<key>_historyCapacity</key>
 												<integer>0</integer>
 												<key>bookmark</key>
-												<string>825F7A8F11B7FFF6003659A3</string>
+												<string>825F7AB711B8062F003659A3</string>
 												<key>history</key>
 												<array>
 													<string>825F716A11B597DB003659A3</string>
@@ -596,9 +597,9 @@
 	<array>
 		<string>825F7A8011B7FF9E003659A3</string>
 		<string>825F7A8111B7FF9E003659A3</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>/Users/jweinberg/Developer/Objective-Curry/Objective-Curry.xcodeproj</string>
 		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>825F714D11B59708003659A3</string>
 	</array>
 	<key>WindowString</key>
@@ -625,7 +626,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Objective-Curry.m</string>
+								<string>OCStream.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>

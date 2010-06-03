@@ -27,7 +27,7 @@
 
 @class OCStream;
 
-typedef OCStream* (^GeneratorBlock)(id);
+typedef OCStream* (^GeneratorBlock)(void);
 
 @interface OCStreamEnumerator : NSEnumerator
 {
