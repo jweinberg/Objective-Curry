@@ -330,7 +330,7 @@
 												<key>_historyCapacity</key>
 												<integer>0</integer>
 												<key>bookmark</key>
-												<string>825F790711B7637B003659A3</string>
+												<string>825F791711B76536003659A3</string>
 												<key>history</key>
 												<array>
 													<string>825F716A11B597DB003659A3</string>
@@ -340,10 +340,10 @@
 													<string>825F781611B73997003659A3</string>
 													<string>825F781711B73997003659A3</string>
 													<string>825F78AC11B75DE7003659A3</string>
-													<string>825F78CD11B76097003659A3</string>
-													<string>825F78CE11B76097003659A3</string>
-													<string>825F78CF11B76097003659A3</string>
-													<string>825F78D011B76097003659A3</string>
+													<string>825F790A11B764D4003659A3</string>
+													<string>825F790B11B764D4003659A3</string>
+													<string>825F791511B76536003659A3</string>
+													<string>825F791611B76536003659A3</string>
 												</array>
 											</dict>
 											<key>SplitCount</key>
@@ -382,7 +382,7 @@
 												<key>_historyCapacity</key>
 												<integer>0</integer>
 												<key>bookmark</key>
-												<string>825F790811B7637B003659A3</string>
+												<string>825F791811B76536003659A3</string>
 												<key>history</key>
 												<array>
 													<string>825F716A11B597DB003659A3</string>
@@ -602,8 +602,8 @@
 		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>825F714D11B59708003659A3</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/jweinberg/Developer/Objective-Curry/Objective-Curry.xcodeproj</string>
+		<string>1C78EAAD065D492600B07095</string>
 	</array>
 	<key>WindowString</key>
 	<string>70 55 1379 823 0 0 1440 878 </string>

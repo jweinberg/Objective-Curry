@@ -76,6 +76,27 @@
     [super dealloc];
 }
 
+- (NSUInteger)countByEnumeratingWithState:(NSFastEnumerationState *)state objects:(id *)stackbuf count:(NSUInteger)len
+{
+    NSEnumerator *enumerator = nil;
+    if (state->state == 0)
+        enumerator = [self enumerator];
+    else
+        enumerator = (NSEnumerator*)state->state;
+    
+    NSUInteger batchCount = 0;
+    id object = nil;
+    while ((object = [enumerator nextObject]) && batchCount < len)
+    {
+        stackbuf[batchCount++] = object;
+    }
+    
+    state->state = (unsigned long)enumerator;
+    state->itemsPtr = stackbuf;
+    state->mutationsPtr = (unsigned long *)self;
+    
+    return batchCount;
+}
 
 - (NSEnumerator*)enumerator;
 {

@@ -64,7 +64,7 @@ int main (int argc, const char * argv[]) {
         
     OCStream * stream = [fib(1,1) filter:^(id arg1) {return [NSNumber numberWithFloat:[arg1 longLongValue] % 2 == 0];}];
     
-    for(NSNumber * num in [[stream take:10] enumerator])
+    for(NSNumber * num in [stream take:10])
     {
        NSLog(@"enumerated: %@", num);
     }
