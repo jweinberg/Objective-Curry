@@ -272,8 +272,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>6</integer>
-									<integer>2</integer>
+									<integer>9</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -319,7 +318,7 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20306471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>OCArray.m</string>
+										<string>Objective-Curry.m</string>
 										<key>PBXSplitModuleInNavigatorKey</key>
 										<dict>
 											<key>Split0</key>
@@ -327,23 +326,23 @@
 												<key>PBXProjectModuleGUID</key>
 												<string>1CE0B20406471E060097A5F4</string>
 												<key>PBXProjectModuleLabel</key>
-												<string>OCArray.m</string>
+												<string>Objective-Curry.m</string>
 												<key>_historyCapacity</key>
 												<integer>0</integer>
 												<key>bookmark</key>
-												<string>825F7B0311B80B85003659A3</string>
+												<string>825F7B3211B80FDF003659A3</string>
 												<key>history</key>
 												<array>
 													<string>825F716A11B597DB003659A3</string>
 													<string>825F71D711B5A71B003659A3</string>
 													<string>825F729B11B5B4AF003659A3</string>
 													<string>825F7A7711B7FF9E003659A3</string>
-													<string>825F7AF311B80AEA003659A3</string>
-													<string>825F7AF411B80AEA003659A3</string>
 													<string>825F7AF511B80AEA003659A3</string>
-													<string>825F7AF611B80AEA003659A3</string>
-													<string>825F7AFF11B80B79003659A3</string>
-													<string>825F7B0011B80B79003659A3</string>
+													<string>825F7B2D11B80FDF003659A3</string>
+													<string>825F7B2E11B80FDF003659A3</string>
+													<string>825F7B2F11B80FDF003659A3</string>
+													<string>825F7B3011B80FDF003659A3</string>
+													<string>825F7B3111B80FDF003659A3</string>
 												</array>
 											</dict>
 											<key>SplitCount</key>
@@ -382,7 +381,7 @@
 												<key>_historyCapacity</key>
 												<integer>0</integer>
 												<key>bookmark</key>
-												<string>825F7B0411B80B85003659A3</string>
+												<string>825F7B3311B80FDF003659A3</string>
 												<key>history</key>
 												<array>
 													<string>825F716A11B597DB003659A3</string>
@@ -599,9 +598,9 @@
 	<array>
 		<string>825F7A8011B7FF9E003659A3</string>
 		<string>825F7A8111B7FF9E003659A3</string>
-		<string>825F714D11B59708003659A3</string>
 		<string>825F7AFB11B80AEA003659A3</string>
 		<string>1CD10A99069EF8BA00B06720</string>
+		<string>825F714D11B59708003659A3</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/jweinberg/Developer/Objective-Curry/Objective-Curry.xcodeproj</string>
 	</array>
@@ -629,7 +628,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>OCArray.m</string>
+								<string>Objective-Curry.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>

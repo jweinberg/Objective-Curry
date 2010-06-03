@@ -18,5 +18,5 @@
 
 - (id)objectAtIndex:(NSUInteger)index;
 - (NSUInteger)count;
-
+- (NSArray *)subarrayWithRange:(NSRange)range;
 @end
