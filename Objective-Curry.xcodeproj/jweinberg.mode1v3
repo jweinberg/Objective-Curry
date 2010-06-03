@@ -331,7 +331,7 @@
 												<key>_historyCapacity</key>
 												<integer>0</integer>
 												<key>bookmark</key>
-												<string>825F7B9711B82945003659A3</string>
+												<string>825F7B9F11B82C06003659A3</string>
 												<key>history</key>
 												<array>
 													<string>825F716A11B597DB003659A3</string>
@@ -383,7 +383,7 @@
 												<key>_historyCapacity</key>
 												<integer>0</integer>
 												<key>bookmark</key>
-												<string>825F7B9811B82945003659A3</string>
+												<string>825F7BA011B82C06003659A3</string>
 												<key>history</key>
 												<array>
 													<string>825F716A11B597DB003659A3</string>
@@ -603,8 +603,8 @@
 		<string>825F7AFB11B80AEA003659A3</string>
 		<string>825F714D11B59708003659A3</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>/Users/jweinberg/Developer/Objective-Curry/Objective-Curry.xcodeproj</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>/Users/jweinberg/Developer/Objective-Curry/Objective-Curry.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>101 55 1379 823 0 0 1440 878 </string>

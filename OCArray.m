@@ -72,5 +72,10 @@
     return [_stream countByEnumeratingWithState:state objects:stackbuf count:len];
 }
 
+- (NSArray *)filteredArrayUsingPredicate:(NSPredicate *)predicate;
+{
+    return [OCArray arrayWithStream:[_stream filter:^(id arg1) {return [NSNumber numberWithBool:[predicate evaluateWithObject:arg1]];}]];
+}
+
 
 @end
