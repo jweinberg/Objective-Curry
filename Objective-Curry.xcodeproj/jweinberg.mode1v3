@@ -272,7 +272,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>3</integer>
+									<integer>4</integer>
 									<integer>2</integer>
 									<integer>1</integer>
 									<integer>0</integer>
@@ -331,7 +331,7 @@
 												<key>_historyCapacity</key>
 												<integer>0</integer>
 												<key>bookmark</key>
-												<string>825F77C011B72827003659A3</string>
+												<string>825F77D311B7357B003659A3</string>
 												<key>history</key>
 												<array>
 													<string>825F716A11B597DB003659A3</string>
@@ -340,12 +340,12 @@
 													<string>825F729B11B5B4AF003659A3</string>
 													<string>825F733911B6ABD9003659A3</string>
 													<string>825F734111B6ACB7003659A3</string>
-													<string>825F772911B71C1D003659A3</string>
-													<string>825F776911B7208A003659A3</string>
-													<string>825F77BC11B72827003659A3</string>
-													<string>825F77BD11B72827003659A3</string>
-													<string>825F77BE11B72827003659A3</string>
-													<string>825F77BF11B72827003659A3</string>
+													<string>825F77C811B7341F003659A3</string>
+													<string>825F77C911B7341F003659A3</string>
+													<string>825F77CF11B7357B003659A3</string>
+													<string>825F77D011B7357B003659A3</string>
+													<string>825F77D111B7357B003659A3</string>
+													<string>825F77D211B7357B003659A3</string>
 												</array>
 											</dict>
 											<key>SplitCount</key>
@@ -384,7 +384,7 @@
 												<key>_historyCapacity</key>
 												<integer>0</integer>
 												<key>bookmark</key>
-												<string>825F77C111B72827003659A3</string>
+												<string>825F77D411B7357B003659A3</string>
 												<key>history</key>
 												<array>
 													<string>825F716A11B597DB003659A3</string>
@@ -604,8 +604,8 @@
 		<string>825F752E11B6EAA5003659A3</string>
 		<string>825F714D11B59708003659A3</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>/Users/jweinberg/Developer/Objective-Curry/Objective-Curry.xcodeproj</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>/Users/jweinberg/Developer/Objective-Curry/Objective-Curry.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>78 55 1379 823 0 0 1440 878 </string>

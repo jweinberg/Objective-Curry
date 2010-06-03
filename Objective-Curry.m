@@ -30,22 +30,22 @@
 OCStream * from(int n)
 {
     return [OCStream streamWithValue:[NSNumber numberWithInt:n] 
-                                 generator:^OCStream*(id generatorBlock, id val)
-                                        {
-                                            return [OCStream streamWithValue:[NSNumber numberWithInt:[val integerValue] + 1] generator:generatorBlock];
-                                        }];
+                           generator:^OCStream*(id generatorBlock, id val)
+                            {
+                                return [OCStream streamWithValue:[NSNumber numberWithInt:[val integerValue] + 1] generator:generatorBlock];
+                            }];
 }
 
 OCStream * seive(OCStream * s)
 {
-    return [[[OCStream alloc] initWithValue:[s head] 
+    return [OCStream streamWithValue:[s head] 
                                   generator:^OCStream*(id generatorBlock, id val)
              {
                  return seive([[s tail] filter:^(id arg1)
                                                 {
                                                     return [NSNumber numberWithBool:([arg1 integerValue] % [val integerValue]) != 0];
                                                 }]);                 
-             }] autorelease];
+             }];
 }
 
 
