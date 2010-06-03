@@ -49,13 +49,22 @@ OCStream * seive(OCStream * s)
              }];
 }
 
+OCStream * fib(unsigned long long num1, unsigned long long num2)
+{
+    return [OCStream streamWithValue:[NSNumber numberWithUnsignedLongLong:num1 + num2] 
+                           generator:^(id generatorBlock, id val)
+                    {
+                        return fib(num2, [val unsignedLongLongValue]); 
+                    }];
+}
+
 
 int main (int argc, const char * argv[]) {
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
         
-    OCStream * stream = seive(from(2));
+    OCStream * stream = [fib(1,1) filter:^(id arg1) {return [NSNumber numberWithFloat:[arg1 longLongValue] % 2 == 0];}];
     
-    for(NSNumber * num in [[[stream drop:5] take:100] enumerator])
+    for(NSNumber * num in [[stream take:10] enumerator])
     {
        NSLog(@"enumerated: %@", num);
     }
