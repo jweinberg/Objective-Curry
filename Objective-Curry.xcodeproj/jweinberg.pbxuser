@@ -714,7 +714,7 @@
 	08FB7796FE84155DC02AAC07 /* Objective-Curry.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1706, 1022}}";
-			sepNavSelRange = "{3080, 0}";
+			sepNavSelRange = "{2492, 0}";
 			sepNavVisRange = "{1561, 1608}";
 			sepNavWindowFrame = "{{122, 85}, {1031, 746}}";
 		};
@@ -2588,9 +2588,9 @@
 	};
 	825F734C11B6AFEC003659A3 /* OCStream.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1105, 3948}}";
-			sepNavSelRange = "{3615, 0}";
-			sepNavVisRange = "{3158, 1137}";
+			sepNavIntBoundsRect = "{{0, 0}, {1105, 3402}}";
+			sepNavSelRange = "{6085, 0}";
+			sepNavVisRange = "{5508, 1639}";
 		};
 	};
 	825F73C211B6BE00003659A3 /* PBXTextBookmark */ = {
@@ -3864,7 +3864,7 @@
 		isa = PBXTextBookmark;
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		rLen = 0;
-		rLoc = 259;
+		rLoc = 252;
 		rType = 1;
 	};
 	825F757911B6EF41003659A3 /* PBXTextBookmark */ = {
@@ -3901,7 +3901,7 @@
 		isa = PBXTextBookmark;
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		rLen = 0;
-		rLoc = 259;
+		rLoc = 252;
 		rType = 1;
 	};
 	825F758811B6F013003659A3 /* PBXTextBookmark */ = {
@@ -3999,7 +3999,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 55";
 		rLen = 0;
-		rLoc = 4326;
+		rLoc = 4325;
 		rType = 0;
 		vrLen = 2385;
 		vrLoc = 1945;
@@ -4039,7 +4039,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 50";
 		rLen = 0;
-		rLoc = 4096;
+		rLoc = 4095;
 		rType = 0;
 		vrLen = 2391;
 		vrLoc = 1945;
@@ -4229,7 +4229,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 112";
 		rLen = 0;
-		rLoc = 7433;
+		rLoc = 7040;
 		rType = 0;
 		vrLen = 1828;
 		vrLoc = 3760;
@@ -4276,7 +4276,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 112";
 		rLen = 0;
-		rLoc = 7433;
+		rLoc = 7040;
 		rType = 0;
 		vrLen = 1828;
 		vrLoc = 3760;
@@ -4326,7 +4326,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 117";
 		rLen = 0;
-		rLoc = 7635;
+		rLoc = 7235;
 		rType = 0;
 		vrLen = 1790;
 		vrLoc = 3798;
@@ -4336,7 +4336,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 117";
 		rLen = 0;
-		rLoc = 7635;
+		rLoc = 7235;
 		rType = 0;
 		vrLen = 1828;
 		vrLoc = 3760;
@@ -4426,7 +4426,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 63";
 		rLen = 0;
-		rLoc = 4327;
+		rLoc = 4326;
 		rType = 0;
 		vrLen = 2043;
 		vrLoc = 1780;
@@ -4543,7 +4543,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 117";
 		rLen = 0;
-		rLoc = 7605;
+		rLoc = 7196;
 		rType = 0;
 		vrLen = 1829;
 		vrLoc = 3823;
@@ -4883,7 +4883,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 105";
 		rLen = 0;
-		rLoc = 5251;
+		rLoc = 5142;
 		rType = 0;
 		vrLen = 1210;
 		vrLoc = 1767;
@@ -4973,7 +4973,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 122";
 		rLen = 0;
-		rLoc = 5688;
+		rLoc = 5579;
 		rType = 0;
 		vrLen = 2460;
 		vrLoc = 2513;
@@ -4983,7 +4983,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 147";
 		rLen = 0;
-		rLoc = 7569;
+		rLoc = 7176;
 		rType = 0;
 		vrLen = 2102;
 		vrLoc = 3831;
@@ -5022,7 +5022,7 @@
 		isa = PBXTextBookmark;
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		rLen = 0;
-		rLoc = 160;
+		rLoc = 159;
 		rType = 1;
 	};
 	825F76D511B714DF003659A3 /* PBXTextBookmark */ = {
@@ -5030,7 +5030,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 92";
 		rLen = 0;
-		rLoc = 4379;
+		rLoc = 4378;
 		rType = 0;
 		vrLen = 2514;
 		vrLoc = 2707;
@@ -5050,7 +5050,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 92";
 		rLen = 0;
-		rLoc = 4390;
+		rLoc = 4389;
 		rType = 0;
 		vrLen = 2514;
 		vrLoc = 2707;
@@ -5060,7 +5060,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 90";
 		rLen = 0;
-		rLoc = 4324;
+		rLoc = 4323;
 		rType = 0;
 		vrLen = 2033;
 		vrLoc = 2246;
@@ -5140,7 +5140,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 109";
 		rLen = 0;
-		rLoc = 5273;
+		rLoc = 5164;
 		rType = 0;
 		vrLen = 1850;
 		vrLoc = 2165;
@@ -5190,7 +5190,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 116";
 		rLen = 0;
-		rLoc = 5249;
+		rLoc = 5140;
 		rType = 0;
 		vrLen = 2158;
 		vrLoc = 2544;
@@ -5280,7 +5280,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 156";
 		rLen = 0;
-		rLoc = 7613;
+		rLoc = 7213;
 		rType = 0;
 		vrLen = 1864;
 		vrLoc = 4199;
@@ -5350,7 +5350,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 156";
 		rLen = 0;
-		rLoc = 7613;
+		rLoc = 7213;
 		rType = 0;
 		vrLen = 1864;
 		vrLoc = 4199;
@@ -5460,7 +5460,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 148";
 		rLen = 0;
-		rLoc = 5708;
+		rLoc = 5599;
 		rType = 0;
 		vrLen = 1897;
 		vrLoc = 0;
@@ -5540,7 +5540,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 157";
 		rLen = 0;
-		rLoc = 6516;
+		rLoc = 6183;
 		rType = 0;
 		vrLen = 1868;
 		vrLoc = 4530;
@@ -5600,7 +5600,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 155";
 		rLen = 0;
-		rLoc = 6399;
+		rLoc = 6066;
 		rType = 0;
 		vrLen = 1552;
 		vrLoc = 2302;
@@ -5610,7 +5610,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 155";
 		rLen = 0;
-		rLoc = 6399;
+		rLoc = 6066;
 		rType = 0;
 		vrLen = 1552;
 		vrLoc = 2302;
@@ -5660,7 +5660,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 107";
 		rLen = 0;
-		rLoc = 3927;
+		rLoc = 3926;
 		rType = 0;
 		vrLen = 2035;
 		vrLoc = 2567;
@@ -5850,7 +5850,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 153";
 		rLen = 0;
-		rLoc = 6093;
+		rLoc = 5811;
 		rType = 0;
 		vrLen = 1866;
 		vrLoc = 4642;
@@ -5930,7 +5930,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 110";
 		rLen = 0;
-		rLoc = 3941;
+		rLoc = 3940;
 		rType = 0;
 		vrLen = 1816;
 		vrLoc = 2593;
@@ -5980,7 +5980,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 110";
 		rLen = 0;
-		rLoc = 3941;
+		rLoc = 3940;
 		rType = 0;
 		vrLen = 1816;
 		vrLoc = 2593;
@@ -6340,7 +6340,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 213";
 		rLen = 0;
-		rLoc = 7102;
+		rLoc = 6709;
 		rType = 0;
 		vrLen = 1409;
 		vrLoc = 6944;
@@ -6509,7 +6509,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 213";
 		rLen = 0;
-		rLoc = 7102;
+		rLoc = 6709;
 		rType = 0;
 		vrLen = 1533;
 		vrLoc = 6625;
@@ -6629,7 +6629,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 231";
 		rLen = 0;
-		rLoc = 7611;
+		rLoc = 7196;
 		rType = 0;
 		vrLen = 1158;
 		vrLoc = 2325;
@@ -6695,7 +6695,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1105, 868}}";
 			sepNavSelRange = "{1166, 0}";
-			sepNavVisRange = "{254, 918}";
+			sepNavVisRange = "{252, 920}";
 		};
 	};
 	825F7AF311B80AEA003659A3 /* PBXTextBookmark */ = {
@@ -6743,7 +6743,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 228";
 		rLen = 0;
-		rLoc = 6979;
+		rLoc = 6646;
 		rType = 0;
 		vrLen = 1728;
 		vrLoc = 5430;
@@ -6783,7 +6783,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 204";
 		rLen = 0;
-		rLoc = 6129;
+		rLoc = 5847;
 		rType = 0;
 		vrLen = 1540;
 		vrLoc = 3942;
@@ -6843,7 +6843,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 154";
 		rLen = 0;
-		rLoc = 4326;
+		rLoc = 4325;
 		rType = 0;
 		vrLen = 1770;
 		vrLoc = 5332;
@@ -6953,7 +6953,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 154";
 		rLen = 0;
-		rLoc = 4326;
+		rLoc = 4325;
 		rType = 0;
 		vrLen = 1712;
 		vrLoc = 5332;
@@ -7003,7 +7003,7 @@
 		fRef = 825F734C11B6AFEC003659A3 /* OCStream.m */;
 		name = "OCStream.m: 215";
 		rLen = 0;
-		rLoc = 6595;
+		rLoc = 6262;
 		rType = 0;
 		vrLen = 1224;
 		vrLoc = 6510;
@@ -7082,7 +7082,7 @@
 		ignoreCount = 0;
 		lineNumber = 36;
 		location = "Objective-Curry";
-		modificationTime = 297279676.161089;
+		modificationTime = 297280086.093769;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};

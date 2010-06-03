@@ -136,7 +136,7 @@
     OCStream *retStream = [OCStream streamWithValue:[self head]
                                           generator:^OCStream*(void)
                            {
-                               OCStream * stream = _nextValue();
+                               OCStream * stream = [self tail];
                                if (count <= 1)
                                    return nil;
                                
@@ -157,13 +157,11 @@
                                           generator:^OCStream*(void)
                            {
                                OCStream * stream = self;
-                               id val = nil;
                                for (int i = 0; i < count; ++i)
                                {
-                                   stream = stream->_nextValue();
+                                   stream = [stream tail];
                                    if (!stream)
                                        return nil;
-                                   val = [stream head];
                                }
                                return stream;
                            }];
@@ -194,19 +192,15 @@
     OCStream *retStream = [OCStream streamWithValue:[self head]
                                           generator:^OCStream*(void)
                            {   
-                               OCStream * stream = _nextValue();
-                               id val = nil;
-                               if (stream)
-                                   val = [stream head];
-                               else 
-                                   return nil;
+                               OCStream * stream = [self tail];
+                               id val = [stream head];
+
                                while(![block(val) boolValue])
                                {
-                                   stream = stream->_nextValue();
-                                   if (stream)
-                                       val = [stream head];
-                                   else 
+                                   stream = [stream tail];
+                                   if (!stream)
                                        return nil;
+                                   val = [stream head];
                                } 
                                return [stream filter:block];
                            }];
@@ -227,8 +221,7 @@
     OCStream *retStream = [OCStream streamWithValue:block([self head])
                                           generator:^OCStream*
                            {   
-                               OCStream * stream = _nextValue();
-                               return [stream map:block];
+                               return [[self tail] map:block];
                            }];
     if (retStream)
     {
@@ -247,7 +240,7 @@
     for (int i = 0; i < count; ++i)
     {
         block(newValue);
-        newStream = newStream->_nextValue();
+        newStream = [newStream tail];
         if (!newStream)
             break;
         newValue = [newStream head];
