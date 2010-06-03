@@ -77,5 +77,16 @@
     return [OCArray arrayWithStream:[_stream filter:^(id arg1) {return [NSNumber numberWithBool:[predicate evaluateWithObject:arg1]];}]];
 }
 
+- (void)setValue:(id)value forKey:(NSString *)key;
+{
+    //this invalidates the cached search
+    [_cachedReadStream release];
+    _cachedReadStream = nil;
+    _cachedOffset = 0;
+    
+    OCStream * newStream = [_stream map:^(id arg1) {[arg1 setValue:value forKey:key]; return arg1;}];
+    [_stream release];
+    _stream = [newStream retain];
+}
 
 @end

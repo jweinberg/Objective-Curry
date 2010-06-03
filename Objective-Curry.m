@@ -28,6 +28,12 @@
 #import "OCStream.h"
 #import "OCArray.h"
 
+OCStream * dictStream()
+{
+    return [OCStream streamWithValue:[NSMutableDictionary dictionaryWithObject:@"Test" forKey:@"Test"] 
+                           generator:^{return dictStream();}];
+}
+
 OCStream * from(int n)
 {
     return [OCStream streamWithValue:[NSNumber numberWithInt:n] 
@@ -60,8 +66,9 @@ int main (int argc, const char * argv[]) {
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
         
     OCStream * stream = [[[fib(1,1) filter:^(id arg1) {return [NSNumber numberWithFloat:[arg1 longLongValue] % 2 == 0];}]  map:^(id arg1) {return [NSString stringWithFormat:@"WOO:%@", arg1];}] map:^(id arg1) {return [arg1 lowercaseString];}];
-    NSArray * array = [[OCArray arrayWithStream:[stream take:100]] subarrayWithRange:NSMakeRange(10, 5)];
+    NSArray * array = [OCArray arrayWithStream:[dictStream() take:5]];
     
+    [array setValue:@"Really?" forKey:@"valueTest"];
     for(NSNumber * num in array)
        NSLog(@"enumerated: %@", num);
    
