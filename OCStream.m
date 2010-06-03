@@ -116,6 +116,11 @@
         return nil;
 }
 
+- (NSString*) description;
+{
+    return [NSString stringWithFormat:@"(%@ ... ?) length:%@", [self head], _hasDefiniteLength ? [[NSNumber numberWithInt:_length] stringValue] : @"?"];
+}
+
 - (id)head;
 {
 
