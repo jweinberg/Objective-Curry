@@ -11,6 +11,8 @@
 
 @interface OCArray : NSArray {
     OCStream * _stream;
+    OCStream * _cachedReadStream;
+    NSUInteger _cachedOffset;
 }
 
 + (id)arrayWithStream:(OCStream*)aStream;

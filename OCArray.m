@@ -28,12 +28,26 @@
 - (void)dealloc;
 {
     [_stream release];
+    [_cachedReadStream release];
     [super dealloc];
 }
 
 - (id)objectAtIndex:(NSUInteger)index;
 {
-    return [[_stream drop:index] head];
+    if (_cachedOffset > index)
+    {
+        [_cachedReadStream release];
+        _cachedReadStream = [[_stream drop:index] retain];
+    }
+    else
+    {
+        OCStream * newStream = [_cachedReadStream drop:index - _cachedOffset];
+        [_cachedReadStream release];
+        _cachedReadStream = [newStream retain];
+    }
+    
+    _cachedOffset = index;
+    return [_cachedReadStream head];
 }
 
 - (NSUInteger)count;
@@ -57,5 +71,6 @@
 {
     return [_stream countByEnumeratingWithState:state objects:stackbuf count:len];
 }
+
 
 @end

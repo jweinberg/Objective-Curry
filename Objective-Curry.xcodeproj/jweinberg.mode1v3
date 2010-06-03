@@ -272,7 +272,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>4</integer>
+									<integer>6</integer>
 									<integer>2</integer>
 									<integer>1</integer>
 									<integer>0</integer>
@@ -319,7 +319,7 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20306471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>OCStream.m</string>
+										<string>OCArray.m</string>
 										<key>PBXSplitModuleInNavigatorKey</key>
 										<dict>
 											<key>Split0</key>
@@ -327,24 +327,24 @@
 												<key>PBXProjectModuleGUID</key>
 												<string>1CE0B20406471E060097A5F4</string>
 												<key>PBXProjectModuleLabel</key>
-												<string>OCStream.m</string>
+												<string>OCArray.m</string>
 												<key>_historyCapacity</key>
 												<integer>0</integer>
 												<key>bookmark</key>
-												<string>825F7B5F11B820D4003659A3</string>
+												<string>825F7B9711B82945003659A3</string>
 												<key>history</key>
 												<array>
 													<string>825F716A11B597DB003659A3</string>
 													<string>825F71D711B5A71B003659A3</string>
 													<string>825F729B11B5B4AF003659A3</string>
 													<string>825F7A7711B7FF9E003659A3</string>
-													<string>825F7B5811B820D4003659A3</string>
 													<string>825F7B5911B820D4003659A3</string>
-													<string>825F7B5A11B820D4003659A3</string>
-													<string>825F7B5B11B820D4003659A3</string>
-													<string>825F7B5C11B820D4003659A3</string>
 													<string>825F7B5D11B820D4003659A3</string>
-													<string>825F7B5E11B820D4003659A3</string>
+													<string>825F7B7F11B826DF003659A3</string>
+													<string>825F7B8311B826ED003659A3</string>
+													<string>825F7B8411B826ED003659A3</string>
+													<string>825F7B9511B82945003659A3</string>
+													<string>825F7B9611B82945003659A3</string>
 												</array>
 											</dict>
 											<key>SplitCount</key>
@@ -383,7 +383,7 @@
 												<key>_historyCapacity</key>
 												<integer>0</integer>
 												<key>bookmark</key>
-												<string>825F7B6011B820D4003659A3</string>
+												<string>825F7B9811B82945003659A3</string>
 												<key>history</key>
 												<array>
 													<string>825F716A11B597DB003659A3</string>
@@ -603,8 +603,8 @@
 		<string>825F7AFB11B80AEA003659A3</string>
 		<string>825F714D11B59708003659A3</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/jweinberg/Developer/Objective-Curry/Objective-Curry.xcodeproj</string>
+		<string>1C78EAAD065D492600B07095</string>
 	</array>
 	<key>WindowString</key>
 	<string>101 55 1379 823 0 0 1440 878 </string>

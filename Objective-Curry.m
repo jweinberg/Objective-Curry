@@ -63,9 +63,7 @@ int main (int argc, const char * argv[]) {
     NSArray * array = [[OCArray arrayWithStream:[stream take:100]] subarrayWithRange:NSMakeRange(10, 5)];
     
     for(NSNumber * num in array)
-    {
        NSLog(@"enumerated: %@", num);
-    }
    
     [pool drain];
     return 0;
