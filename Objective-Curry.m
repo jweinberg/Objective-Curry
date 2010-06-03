@@ -30,9 +30,9 @@
 OCStream * from(int n)
 {
     return [OCStream streamWithValue:[NSNumber numberWithInt:n] 
-                           generator:^(id generatorBlock, id val)
+                           generator:^(id generatorBlock)
                             {
-                                return [OCStream streamWithValue:[NSNumber numberWithInt:[val integerValue] + 1] 
+                                return [OCStream streamWithValue:[NSNumber numberWithInt:n + 1] 
                                                        generator:generatorBlock];
                             }];
 }
@@ -40,11 +40,11 @@ OCStream * from(int n)
 OCStream * seive(OCStream * s)
 {
     return [OCStream streamWithValue:[s head] 
-                            generator:^(id generatorBlock, id val)
+                            generator:^(id generatorBlock)
              {
                  return seive([[s tail] filter:^(id arg1)
                                                 {
-                                                    return [NSNumber numberWithBool:([arg1 integerValue] % [val integerValue]) != 0];
+                                                    return [NSNumber numberWithBool:([arg1 integerValue] % [[s head] integerValue]) != 0];
                                                 }]);                 
              }];
 }
@@ -52,9 +52,9 @@ OCStream * seive(OCStream * s)
 OCStream * fib(unsigned long long num1, unsigned long long num2)
 {
     return [OCStream streamWithValue:[NSNumber numberWithUnsignedLongLong:num1 + num2] 
-                           generator:^(id generatorBlock, id val)
+                           generator:^(id generatorBlock)
                     {
-                        return fib(num2, [val unsignedLongLongValue]); 
+                        return fib(num2, num1 + num2); 
                     }];
 }
 
@@ -62,7 +62,7 @@ OCStream * fib(unsigned long long num1, unsigned long long num2)
 int main (int argc, const char * argv[]) {
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
         
-    OCStream * stream = [fib(1,1) filter:^(id arg1) {return [NSNumber numberWithFloat:[arg1 longLongValue] % 2 == 0];}];
+    OCStream * stream = [[fib(1,1) filter:^(id arg1) {return [NSNumber numberWithFloat:[arg1 longLongValue] % 2 == 0];}]  map:^(id arg1) {return [NSString stringWithFormat:@"WOO:%@", arg1];}];
     
     for(NSNumber * num in [stream take:10])
     {

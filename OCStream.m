@@ -110,7 +110,7 @@
 {
     if (_dirtyHead)
     {
-        OCStream *tmpStream = _nextValue(_nextValue, _head);
+        OCStream *tmpStream = _nextValue(_nextValue);
         [_head release];
         [_nextValue release];
         
@@ -125,9 +125,9 @@
 - (OCStream*)take:(int)count;
 {
     OCStream *retStream = [OCStream streamWithValue:[self head]
-                           generator:^OCStream*(id generatorBlock, id val)
+                           generator:^OCStream*(id generatorBlock)
                                         {
-                                            OCStream * stream = _nextValue(_nextValue,val);
+                                            OCStream * stream = _nextValue(_nextValue);
                                             if (count <= 1)
                                                 return nil;
                                              
@@ -144,12 +144,13 @@
 - (OCStream*)drop:(int)count;
 {
     OCStream *retStream = [OCStream streamWithValue:[self head]
-                                          generator:^OCStream*(id generatorBlock, id val)
+                                          generator:^OCStream*(id generatorBlock)
                                                         {
                                                             OCStream * stream = self;
+                                                            id val = nil;
                                                             for (int i = 0; i < count; ++i)
                                                             {
-                                                                stream = stream->_nextValue(stream->_nextValue, val);
+                                                                stream = stream->_nextValue(stream->_nextValue);
                                                                 if (!stream)
                                                                     return nil;
                                                                 val = [stream head];
@@ -166,7 +167,7 @@
 
 - (OCStream*)tail;
 {
-    OCStream *retStream = _nextValue(_nextValue, [self head]);
+    OCStream *retStream = _nextValue(_nextValue);
     if (retStream)
         retStream->_hasDefiniteLength = _hasDefiniteLength;
     return retStream;
@@ -175,16 +176,17 @@
 - (OCStream*)filter:(id(^)(id))block;
 {
     OCStream *retStream = [OCStream streamWithValue:[self head]
-                                          generator:^OCStream*(id generatorBlock, id val)
+                                          generator:^OCStream*(id generatorBlock)
                                             {   
-                                                OCStream * stream = _nextValue(_nextValue, val);
+                                                OCStream * stream = _nextValue(_nextValue);
+                                                id val = nil;
                                                 if (stream)
                                                     val = [stream head];
                                                 else 
                                                     return nil;
                                                 while(![block(val) boolValue])
                                                 {
-                                                        stream = stream->_nextValue(stream->_nextValue, val);
+                                                        stream = stream->_nextValue(stream->_nextValue);
                                                         if (stream)
                                                             val = [stream head];
                                                         else 
@@ -202,6 +204,22 @@
     return retStream;
 }
 
+- (OCStream*)map:(id(^)(id))block;
+{
+    OCStream *retStream = [OCStream streamWithValue:block([self head])
+                                          generator:^OCStream*(id generatorBlock)
+                           {   
+                               OCStream * stream = _nextValue(_nextValue);
+                               return [stream map:block];
+                           }];
+    if (retStream)
+    {
+        retStream->_dirtyHead = NO;
+        retStream->_hasDefiniteLength = _hasDefiniteLength;
+    }
+    return retStream;    
+}
+
 - (OCStream*)generate:(int)count performBlock:(void (^)(id))block;
 {
     OCStream * newStream = self;
@@ -209,7 +227,7 @@
     for (int i = 0; i < count; ++i)
     {
         block(newValue);
-        newStream = newStream->_nextValue(newStream->_nextValue, newValue);
+        newStream = newStream->_nextValue(newStream->_nextValue);
         if (!newStream)
             break;
         newValue = [newStream head];

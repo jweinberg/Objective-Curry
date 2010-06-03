@@ -27,7 +27,7 @@
 
 @class OCStream;
 
-typedef OCStream* (^GeneratorBlock)(id,id);
+typedef OCStream* (^GeneratorBlock)(id);
 
 @interface OCStreamEnumerator : NSEnumerator
 {
@@ -54,6 +54,7 @@ typedef OCStream* (^GeneratorBlock)(id,id);
 
 - (NSEnumerator*)enumerator;
 
+- (OCStream*)map:(id(^)(id))block;
 - (OCStream*)take:(int)count;
 - (OCStream*)drop:(int)count;
 - (OCStream*)tail;
