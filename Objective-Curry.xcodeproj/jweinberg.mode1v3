@@ -272,7 +272,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>9</integer>
+									<integer>6</integer>
+									<integer>2</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -318,7 +319,7 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20306471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Objective-Curry.m</string>
+										<string>OCArray.m</string>
 										<key>PBXSplitModuleInNavigatorKey</key>
 										<dict>
 											<key>Split0</key>
@@ -326,11 +327,11 @@
 												<key>PBXProjectModuleGUID</key>
 												<string>1CE0B20406471E060097A5F4</string>
 												<key>PBXProjectModuleLabel</key>
-												<string>Objective-Curry.m</string>
+												<string>OCArray.m</string>
 												<key>_historyCapacity</key>
 												<integer>0</integer>
 												<key>bookmark</key>
-												<string>825F7BFF11B8444E003659A3</string>
+												<string>825F7C1B11B85120003659A3</string>
 												<key>history</key>
 												<array>
 													<string>825F716A11B597DB003659A3</string>
@@ -341,12 +342,16 @@
 													<string>825F7BC111B83DC6003659A3</string>
 													<string>825F7BDC11B842E3003659A3</string>
 													<string>825F7BDD11B842E3003659A3</string>
-													<string>825F7BF911B8444E003659A3</string>
-													<string>825F7BFA11B8444E003659A3</string>
 													<string>825F7BFB11B8444E003659A3</string>
 													<string>825F7BFC11B8444E003659A3</string>
-													<string>825F7BFD11B8444E003659A3</string>
-													<string>825F7BFE11B8444E003659A3</string>
+													<string>825F7C0111B84AE6003659A3</string>
+													<string>825F7C0211B84AE6003659A3</string>
+													<string>825F7C0311B84AE6003659A3</string>
+													<string>825F7C0511B84AE6003659A3</string>
+													<string>825F7C0711B84AE6003659A3</string>
+													<string>825F7C0911B84AE6003659A3</string>
+													<string>825F7C0B11B84AE6003659A3</string>
+													<string>825F7C0C11B84AE6003659A3</string>
 												</array>
 											</dict>
 											<key>SplitCount</key>
@@ -385,7 +390,7 @@
 												<key>_historyCapacity</key>
 												<integer>0</integer>
 												<key>bookmark</key>
-												<string>825F7C0011B8444E003659A3</string>
+												<string>825F7C1C11B85120003659A3</string>
 												<key>history</key>
 												<array>
 													<string>825F716A11B597DB003659A3</string>

@@ -27,7 +27,16 @@
 #import "OCArray.h"
 #import "OCStream.h"
 
+@interface OCArray ()
+
+@property (retain) OCStream * stream;
+
+@end
+
+
 @implementation OCArray
+
+@synthesize stream = _stream;;
 
 + (id)arrayWithStream:(OCStream*)aStream;
 {
@@ -50,12 +59,24 @@
     [super dealloc];
 }
 
+- (void)setStream:(OCStream *)aStream;
+{
+    if (aStream != _stream)
+    {
+        [_cachedReadStream release];
+        _cachedReadStream = nil;
+        _cachedOffset = 0;
+        [_stream release];
+        _stream = [aStream retain];
+    }
+}
+
 - (id)objectAtIndex:(NSUInteger)index;
 {
     if (_cachedOffset > index)
     {
         [_cachedReadStream release];
-        _cachedReadStream = [[_stream drop:index] retain];
+        _cachedReadStream = [[self.stream drop:index] retain];
     }
     else
     {
@@ -96,15 +117,8 @@
 }
 
 - (void)setValue:(id)value forKey:(NSString *)key;
-{
-    //this invalidates the cached search
-    [_cachedReadStream release];
-    _cachedReadStream = nil;
-    _cachedOffset = 0;
-    
-    OCStream * newStream = [_stream map:^(id arg1) {[arg1 setValue:value forKey:key]; return arg1;}];
-    [_stream release];
-    _stream = [newStream retain];
+{    
+    self.stream = [_stream map:^(id arg1) {[arg1 setValue:value forKey:key]; return arg1;}];
 }
 
 - (NSArray *)valueForKey:(NSString *)key;
