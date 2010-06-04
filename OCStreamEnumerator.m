@@ -28,7 +28,15 @@
 #import "OCStream.h"
 #import "OCArray.h"
 
+@interface OCStreamEnumerator ()
+
+@property (retain) OCStream * stream;
+
+@end
+
 @implementation OCStreamEnumerator
+
+@synthesize stream = _stream;
 
 - (id)initWithStream:(OCStream*)aStream;
 {
@@ -47,18 +55,15 @@
 
 - (id)nextObject;
 {
-    id val = [_stream head];
-    [_stream release];
-    _stream = [[_stream tail] retain];
+    id val = [self.stream head];
+    self.stream = [self.stream tail];
     return val;
 }
 
-
-- (NSArray*)allObjects;
+- (OCArray*)allObjects;
 {
-    OCArray *retStream = [OCArray arrayWithStream:_stream];
-    [_stream release];
-    _stream = nil;
+    OCArray *retStream = [OCArray arrayWithStream:self.stream];
+    self.stream = nil;
     return retStream;
 }
 

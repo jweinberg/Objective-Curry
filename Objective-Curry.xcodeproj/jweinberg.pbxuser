@@ -871,8 +871,8 @@
 	08FB7796FE84155DC02AAC07 /* Objective-Curry.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1706, 1078}}";
-			sepNavSelRange = "{3138, 0}";
-			sepNavVisRange = "{1536, 1724}";
+			sepNavSelRange = "{2997, 7}";
+			sepNavVisRange = "{1892, 1368}";
 			sepNavWindowFrame = "{{122, 85}, {1031, 746}}";
 		};
 	};
@@ -1062,17 +1062,17 @@
 	};
 	825F718C11B59848003659A3 /* NSArray+Functional.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1105, 654}}";
-			sepNavSelRange = "{1435, 0}";
-			sepNavVisRange = "{0, 1970}";
+			sepNavIntBoundsRect = "{{0, 0}, {1105, 560}}";
+			sepNavSelRange = "{1484, 7}";
+			sepNavVisRange = "{0, 1700}";
 			sepNavWindowFrame = "{{99, 106}, {1031, 746}}";
 		};
 	};
 	825F718D11B59848003659A3 /* NSArray+Functional.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1105, 1288}}";
-			sepNavSelRange = "{1435, 0}";
-			sepNavVisRange = "{0, 1830}";
+			sepNavIntBoundsRect = "{{0, 0}, {1105, 1372}}";
+			sepNavSelRange = "{1446, 7}";
+			sepNavVisRange = "{452, 1320}";
 		};
 	};
 	825F719311B59868003659A3 /* PBXTextBookmark */ = {
@@ -6843,16 +6843,16 @@
 	};
 	825F7ADB11B8085A003659A3 /* OCArray.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1105, 654}}";
-			sepNavSelRange = "{1435, 0}";
-			sepNavVisRange = "{0, 1833}";
+			sepNavIntBoundsRect = "{{0, 0}, {1105, 616}}";
+			sepNavSelRange = "{1500, 7}";
+			sepNavVisRange = "{452, 1381}";
 		};
 	};
 	825F7ADC11B8085A003659A3 /* OCArray.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1105, 1764}}";
-			sepNavSelRange = "{2838, 0}";
-			sepNavVisRange = "{1835, 912}";
+			sepNavIntBoundsRect = "{{0, 0}, {1105, 1694}}";
+			sepNavSelRange = "{2672, 0}";
+			sepNavVisRange = "{2659, 936}";
 		};
 	};
 	825F7AF311B80AEA003659A3 /* PBXTextBookmark */ = {
@@ -6910,7 +6910,7 @@
 		fRef = 825F7ADC11B8085A003659A3 /* OCArray.m */;
 		name = "OCArray.m: 41";
 		rLen = 0;
-		rLoc = 2696;
+		rLoc = 2658;
 		rType = 0;
 		vrLen = 667;
 		vrLoc = 0;
@@ -6920,7 +6920,7 @@
 		fRef = 825F7ADC11B8085A003659A3 /* OCArray.m */;
 		name = "OCArray.m: 21";
 		rLen = 0;
-		rLoc = 1786;
+		rLoc = 1883;
 		rType = 0;
 		vrLen = 667;
 		vrLoc = 0;
@@ -6950,7 +6950,7 @@
 		fRef = 825F7ADC11B8085A003659A3 /* OCArray.m */;
 		name = "OCArray.m: 21";
 		rLen = 0;
-		rLoc = 1786;
+		rLoc = 1883;
 		rType = 0;
 		vrLen = 667;
 		vrLoc = 0;
@@ -6960,7 +6960,7 @@
 		fRef = 825F7ADC11B8085A003659A3 /* OCArray.m */;
 		name = "OCArray.m: 23";
 		rLen = 0;
-		rLoc = 1833;
+		rLoc = 1930;
 		rType = 0;
 		vrLen = 676;
 		vrLoc = 0;
@@ -6980,7 +6980,7 @@
 		fRef = 825F7ADC11B8085A003659A3 /* OCArray.m */;
 		name = "OCArray.m: 23";
 		rLen = 0;
-		rLoc = 1833;
+		rLoc = 1930;
 		rType = 0;
 		vrLen = 676;
 		vrLoc = 0;
@@ -7020,7 +7020,7 @@
 		fRef = 825F7ADC11B8085A003659A3 /* OCArray.m */;
 		name = "OCArray.m: 23";
 		rLen = 0;
-		rLoc = 1833;
+		rLoc = 1930;
 		rType = 0;
 		vrLen = 676;
 		vrLoc = 0;
@@ -7130,7 +7130,7 @@
 		fRef = 825F7ADC11B8085A003659A3 /* OCArray.m */;
 		name = "OCArray.m: 23";
 		rLen = 0;
-		rLoc = 1833;
+		rLoc = 1930;
 		rType = 0;
 		vrLen = 676;
 		vrLoc = 0;
@@ -7140,7 +7140,7 @@
 		fRef = 825F7ADC11B8085A003659A3 /* OCArray.m */;
 		name = "OCArray.m: 44";
 		rLen = 7;
-		rLoc = 2732;
+		rLoc = 2694;
 		rType = 0;
 		vrLen = 716;
 		vrLoc = 17;
@@ -7190,7 +7190,7 @@
 		fRef = 825F7ADC11B8085A003659A3 /* OCArray.m */;
 		name = "OCArray.m: 32";
 		rLen = 0;
-		rLoc = 2202;
+		rLoc = 2306;
 		rType = 0;
 		vrLen = 810;
 		vrLoc = 80;
@@ -7270,7 +7270,7 @@
 		fRef = 825F7ADC11B8085A003659A3 /* OCArray.m */;
 		name = "OCArray.m: 60";
 		rLen = 0;
-		rLoc = 3627;
+		rLoc = 3589;
 		rType = 0;
 		vrLen = 918;
 		vrLoc = 254;
@@ -7330,7 +7330,7 @@
 		fRef = 825F7ADC11B8085A003659A3 /* OCArray.m */;
 		name = "OCArray.m: 60";
 		rLen = 0;
-		rLoc = 3627;
+		rLoc = 3589;
 		rType = 0;
 		vrLen = 920;
 		vrLoc = 252;
@@ -7410,7 +7410,7 @@
 		fRef = 825F7ADC11B8085A003659A3 /* OCArray.m */;
 		name = "OCArray.m: 60";
 		rLen = 0;
-		rLoc = 3627;
+		rLoc = 3589;
 		rType = 0;
 		vrLen = 920;
 		vrLoc = 252;
@@ -7420,7 +7420,7 @@
 		fRef = 825F7ADC11B8085A003659A3 /* OCArray.m */;
 		name = "OCArray.m: 61";
 		rLen = 0;
-		rLoc = 3627;
+		rLoc = 3589;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 254;
@@ -7440,7 +7440,7 @@
 		fRef = 825F7ADC11B8085A003659A3 /* OCArray.m */;
 		name = "OCArray.m: 30";
 		rLen = 0;
-		rLoc = 1935;
+		rLoc = 2072;
 		rType = 0;
 		vrLen = 794;
 		vrLoc = 0;
@@ -7480,7 +7480,7 @@
 		fRef = 825F7ADC11B8085A003659A3 /* OCArray.m */;
 		name = "OCArray.m: 31";
 		rLen = 0;
-		rLoc = 1935;
+		rLoc = 2072;
 		rType = 0;
 		vrLen = 849;
 		vrLoc = 142;
@@ -7510,7 +7510,7 @@
 		fRef = 825F7ADC11B8085A003659A3 /* OCArray.m */;
 		name = "OCArray.m: 31";
 		rLen = 0;
-		rLoc = 1935;
+		rLoc = 2072;
 		rType = 0;
 		vrLen = 849;
 		vrLoc = 142;
@@ -7520,7 +7520,7 @@
 		fRef = 825F7ADC11B8085A003659A3 /* OCArray.m */;
 		name = "OCArray.m: 48";
 		rLen = 0;
-		rLoc = 2577;
+		rLoc = 2535;
 		rType = 0;
 		vrLen = 913;
 		vrLoc = 143;
@@ -7540,7 +7540,7 @@
 		fRef = 825F7ADC11B8085A003659A3 /* OCArray.m */;
 		name = "OCArray.m: 77";
 		rLen = 0;
-		rLoc = 3327;
+		rLoc = 3289;
 		rType = 0;
 		vrLen = 1165;
 		vrLoc = 604;
@@ -7560,7 +7560,7 @@
 		fRef = 825F7ADC11B8085A003659A3 /* OCArray.m */;
 		name = "OCArray.m: 75";
 		rLen = 208;
-		rLoc = 3122;
+		rLoc = 3084;
 		rType = 0;
 		vrLen = 1165;
 		vrLoc = 604;
@@ -7580,7 +7580,7 @@
 		fRef = 825F7ADC11B8085A003659A3 /* OCArray.m */;
 		name = "OCArray.m: 89";
 		rLen = 0;
-		rLoc = 3482;
+		rLoc = 3444;
 		rType = 0;
 		vrLen = 1190;
 		vrLoc = 924;
@@ -7640,7 +7640,7 @@
 		fRef = 825F7ADC11B8085A003659A3 /* OCArray.m */;
 		name = "OCArray.m: 94";
 		rLen = 0;
-		rLoc = 3624;
+		rLoc = 3586;
 		rType = 0;
 		vrLen = 1258;
 		vrLoc = 999;
@@ -8074,7 +8074,7 @@
 		fRef = 825F7ADC11B8085A003659A3 /* OCArray.m */;
 		name = "OCArray.m: 95";
 		rLen = 0;
-		rLoc = 3190;
+		rLoc = 3152;
 		rType = 0;
 		vrLen = 1302;
 		vrLoc = 2256;
@@ -8084,7 +8084,7 @@
 		fRef = 825F7ADC11B8085A003659A3 /* OCArray.m */;
 		name = "OCArray.m: 94";
 		rLen = 0;
-		rLoc = 3190;
+		rLoc = 3152;
 		rType = 0;
 		vrLen = 1290;
 		vrLoc = 2256;
@@ -8104,7 +8104,7 @@
 		fRef = 825F7ADC11B8085A003659A3 /* OCArray.m */;
 		name = "OCArray.m: 67";
 		rLen = 0;
-		rLoc = 2354;
+		rLoc = 2437;
 		rType = 0;
 		vrLen = 856;
 		vrLoc = 1478;
@@ -8124,7 +8124,7 @@
 		fRef = 825F7ADC11B8085A003659A3 /* OCArray.m */;
 		name = "OCArray.m: 122";
 		rLen = 0;
-		rLoc = 3482;
+		rLoc = 3444;
 		rType = 0;
 		vrLen = 1225;
 		vrLoc = 2482;
@@ -8144,7 +8144,7 @@
 		fRef = 825F7ADC11B8085A003659A3 /* OCArray.m */;
 		name = "OCArray.m: 121";
 		rLen = 0;
-		rLoc = 3481;
+		rLoc = 3443;
 		rType = 0;
 		vrLen = 1225;
 		vrLoc = 2482;
@@ -8164,7 +8164,7 @@
 		fRef = 825F7ADC11B8085A003659A3 /* OCArray.m */;
 		name = "OCArray.m: 83";
 		rLen = 0;
-		rLoc = 2418;
+		rLoc = 2446;
 		rType = 0;
 		vrLen = 1148;
 		vrLoc = 1960;
@@ -8244,7 +8244,7 @@
 		fRef = 825F7ADC11B8085A003659A3 /* OCArray.m */;
 		name = "OCArray.m: 83";
 		rLen = 0;
-		rLoc = 2418;
+		rLoc = 2446;
 		rType = 0;
 		vrLen = 1028;
 		vrLoc = 1960;
@@ -8324,7 +8324,7 @@
 		fRef = 825F7ADC11B8085A003659A3 /* OCArray.m */;
 		name = "OCArray.m: 85";
 		rLen = 0;
-		rLoc = 2551;
+		rLoc = 2455;
 		rType = 0;
 		vrLen = 1028;
 		vrLoc = 1959;
@@ -8414,7 +8414,7 @@
 		fRef = 825F7ADC11B8085A003659A3 /* OCArray.m */;
 		name = "OCArray.m: 85";
 		rLen = 0;
-		rLoc = 2551;
+		rLoc = 2455;
 		rType = 0;
 		vrLen = 1028;
 		vrLoc = 1959;
@@ -8522,7 +8522,7 @@
 		fRef = 825F7ADC11B8085A003659A3 /* OCArray.m */;
 		name = "OCArray.m: 80";
 		rLen = 0;
-		rLoc = 2387;
+		rLoc = 2437;
 		rType = 0;
 		vrLen = 1028;
 		vrLoc = 1959;
@@ -8660,7 +8660,7 @@
 		fRef = 825F7ADC11B8085A003659A3 /* OCArray.m */;
 		name = "OCArray.m: 108";
 		rLen = 0;
-		rLoc = 2913;
+		rLoc = 2875;
 		rType = 0;
 		vrLen = 1259;
 		vrLoc = 2204;
@@ -8704,9 +8704,9 @@
 	};
 	825F7CA211B947EC003659A3 /* OCStreamEnumerator.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1105, 924}}";
-			sepNavSelRange = "{1435, 0}";
-			sepNavVisRange = "{984, 1057}";
+			sepNavIntBoundsRect = "{{0, 0}, {1105, 994}}";
+			sepNavSelRange = "{1982, 0}";
+			sepNavVisRange = "{921, 894}";
 		};
 	};
 	825F7CB011B95627003659A3 /* PBXTextBookmark */ = {
@@ -8774,7 +8774,7 @@
 		fRef = 825F7ADC11B8085A003659A3 /* OCArray.m */;
 		name = "OCArray.m: 99";
 		rLen = 0;
-		rLoc = 2749;
+		rLoc = 2711;
 		rType = 0;
 		vrLen = 1119;
 		vrLoc = 2072;
@@ -8794,7 +8794,7 @@
 		fRef = 825F7ADC11B8085A003659A3 /* OCArray.m */;
 		name = "OCArray.m: 100";
 		rLen = 0;
-		rLoc = 2838;
+		rLoc = 2800;
 		rType = 0;
 		vrLen = 912;
 		vrLoc = 1835;

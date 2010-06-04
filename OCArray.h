@@ -38,6 +38,6 @@
 
 - (id)objectAtIndex:(NSUInteger)index;
 - (NSUInteger)count;
-- (NSArray *)subarrayWithRange:(NSRange)range;
+- (OCArray *)subarrayWithRange:(NSRange)range;
 - (NSEnumerator *)objectEnumerator;
 @end
