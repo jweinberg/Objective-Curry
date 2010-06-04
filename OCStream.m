@@ -25,34 +25,7 @@
  */
 
 #import "OCStream.h"
-
-@implementation OCStreamEnumerator
-
-- (id)initWithStream:(OCStream*)aStream;
-{
-    if ((self=[super init]))
-    {
-        _stream = [aStream retain];
-    }
-    return self;
-}
-
-- (void)dealloc;
-{
-    [_stream release];
-    [super dealloc];
-}
-
-- (id)nextObject;
-{
-    id val = [_stream head];
-    [_stream release];
-    _stream = [[_stream tail] retain];
-    return val;
-}
-
-@end
-
+#import "OCStreamEnumerator.h"
 
 @implementation OCStream
 
@@ -81,9 +54,16 @@
 
 - (NSUInteger)length;
 {
-    if (_hasDefiniteLength)
-        return _length;
-    return UINT_MAX;
+    OCStream * stream = self;
+    NSUInteger count = 0;
+    while (stream)
+    {
+        count++;
+        if (count == UINT_MAX)
+            return count;
+        stream = [stream tail];
+    }
+    return count;
 }
 
 - (NSUInteger)countByEnumeratingWithState:(NSFastEnumerationState *)state objects:(id *)stackbuf count:(NSUInteger)len
@@ -110,15 +90,12 @@
 
 - (NSEnumerator*)enumerator;
 {
-    if (_hasDefiniteLength)
-        return [[[OCStreamEnumerator alloc] initWithStream:self] autorelease];
-    else
-        return nil;
+    return [[[OCStreamEnumerator alloc] initWithStream:self] autorelease];
 }
 
 - (NSString*) description;
 {
-    return [NSString stringWithFormat:@"(%@ ... ?) length:%@", [self head], _hasDefiniteLength ? [[NSNumber numberWithInt:_length] stringValue] : @"?"];
+    return [NSString stringWithFormat:@"(%@ ... ?)", [self head]];
 }
 
 - (id)head;
@@ -151,9 +128,7 @@
                            }];
     if (retStream)
     {
-        retStream->_hasDefiniteLength = YES;
         retStream->_dirtyHead = _dirtyHead;
-        retStream->_length = count;
     }
     return retStream;
 }
@@ -175,9 +150,6 @@
     if (retStream)
     {
         retStream->_dirtyHead = YES;
-        retStream->_hasDefiniteLength = _hasDefiniteLength;
-        if (_hasDefiniteLength)
-            retStream->_length = _length - count;
     }
     return retStream;
 }
@@ -185,12 +157,6 @@
 - (OCStream*)tail;
 {
     OCStream *retStream = _nextValue();
-    if (retStream)
-    {
-        retStream->_hasDefiniteLength = _hasDefiniteLength;
-        if (_hasDefiniteLength)
-            retStream->_length = _length - 1;
-    }
     return retStream;
 }
 
@@ -215,10 +181,6 @@
     {
         if (![block([self head]) boolValue])
             retStream->_dirtyHead = YES;
-        
-        retStream->_hasDefiniteLength = _hasDefiniteLength;
-        if (_hasDefiniteLength)
-            retStream->_length = _length;
     }
     return retStream;
 }
@@ -233,9 +195,6 @@
     if (retStream)
     {
         retStream->_dirtyHead = NO;
-        retStream->_hasDefiniteLength = _hasDefiniteLength;
-        if (_hasDefiniteLength)
-            retStream->_length = _length;
     }
     return retStream;    
 }
@@ -250,9 +209,6 @@
     if (retStream)
     {
         retStream->_dirtyHead = _dirtyHead;
-        retStream->_hasDefiniteLength = _hasDefiniteLength;
-        if (_hasDefiniteLength)
-            retStream->_length = _length;
     }
     return retStream;
 }

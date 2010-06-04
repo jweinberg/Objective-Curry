@@ -96,8 +96,6 @@
 
 - (NSArray *)subarrayWithRange:(NSRange)range;
 {
-    if (range.location + range.length > [self count])
-        return nil;
     return [OCArray arrayWithStream:[[_stream drop:range.location] take:range.length]];
 }
 

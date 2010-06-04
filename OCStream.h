@@ -30,24 +30,11 @@
 
 typedef OCStream* (^GeneratorBlock)(void);
 
-@interface OCStreamEnumerator : NSEnumerator
-{
-@private
-    OCStream *_stream;
-}
-
-- (id)initWithStream:(OCStream*)aStream;
-
-@end
-
-
 @interface OCStream : NSObject <NSFastEnumeration> {
 @private
     BOOL _dirtyHead;
-    BOOL _hasDefiniteLength;
     NSObject * _head;
     GeneratorBlock _nextValue;
-    NSUInteger _length;
 }
 
 + (id)streamWithValue:(id)value generator:(GeneratorBlock)nextValue;

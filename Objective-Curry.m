@@ -67,9 +67,8 @@ int main (int argc, const char * argv[]) {
     OCStream * stream = [[[fib(1,1) filter:^(id arg1) {return [NSNumber numberWithFloat:[arg1 longLongValue] % 2 == 0];}]  map:^(id arg1) {return [NSString stringWithFormat:@"WOO:%@", arg1];}] map:^(id arg1) {return [arg1 lowercaseString];}];
     NSArray * array = [OCArray arrayWithStream:[[dictStream() zip:from(0)] take:5]];
     
-    NSLog(@"%@", [[stream take:10] drop:5]);
    // [array setValue:@"Really?" forKey:@"valueTest"];
-    for(NSNumber * num in array)
+    for(NSNumber * num in [from(0) take:100])
        NSLog(@"enumerated: %@", num);
    
     [pool drain];
