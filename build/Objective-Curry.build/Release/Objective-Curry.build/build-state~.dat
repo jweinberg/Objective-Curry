@@ -1,400 +1,0 @@
-TObjective-Curry
-v7
-r0
-t297199728.987161
-cCheck dependencies
-cProcessPCH /var/folders/Az/AzKfvqfJEX8LvdSy0ftAs1Dpeyw/-Caches-/com.apple.Xcode.871738351/SharedPrecompiledHeaders/Objective-Curry_Prefix-eumflhwcmoyorjcjhoduhyiptklb/Objective-Curry_Prefix.pch.pth Objective-Curry_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.2_0
-cProcessPCH /var/folders/Az/AzKfvqfJEX8LvdSy0ftAs1Dpeyw/-Caches-/com.apple.Xcode.871738351/SharedPrecompiledHeaders/Objective-Curry_Prefix-bdfksxdrzdzupbauubctsbtzslcj/Objective-Curry_Prefix.pch.pth Objective-Curry_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.2_0
-cProcessPCH /var/folders/Az/AzKfvqfJEX8LvdSy0ftAs1Dpeyw/-Caches-/com.apple.Xcode.871738351/SharedPrecompiledHeaders/Objective-Curry_Prefix-cieqaawatirffyhgnzumwpgsgvnh/Objective-Curry_Prefix.pch.pth Objective-Curry_Prefix.pch normal ppc objective-c com.apple.compilers.llvm.clang.2_0
-cCompileC build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/x86_64/Objective-Curry.o /Users/jweinberg/Developer/Objective-Curry/Objective-Curry.m normal x86_64 objective-c com.apple.compilers.llvm.clang.2_0
-cCompileC build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/x86_64/curry.o /Users/jweinberg/Developer/Objective-Curry/curry.m normal x86_64 objective-c com.apple.compilers.llvm.clang.2_0
-cCompileC build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/x86_64/NSArray+Functional.o /Users/jweinberg/Developer/Objective-Curry/NSArray+Functional.m normal x86_64 objective-c com.apple.compilers.llvm.clang.2_0
-cCompileC build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/x86_64/OCStream.o /Users/jweinberg/Developer/Objective-Curry/OCStream.m normal x86_64 objective-c com.apple.compilers.llvm.clang.2_0
-cCompileC build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/i386/Objective-Curry.o /Users/jweinberg/Developer/Objective-Curry/Objective-Curry.m normal i386 objective-c com.apple.compilers.llvm.clang.2_0
-cLd /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/x86_64/Objective-Curry normal x86_64
-cCompileC build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/i386/curry.o /Users/jweinberg/Developer/Objective-Curry/curry.m normal i386 objective-c com.apple.compilers.llvm.clang.2_0
-cCompileC build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/i386/NSArray+Functional.o /Users/jweinberg/Developer/Objective-Curry/NSArray+Functional.m normal i386 objective-c com.apple.compilers.llvm.clang.2_0
-cCompileC build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/i386/OCStream.o /Users/jweinberg/Developer/Objective-Curry/OCStream.m normal i386 objective-c com.apple.compilers.llvm.clang.2_0
-cLd /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/i386/Objective-Curry normal i386
-
-N/Developer/SDKs/MacOSX10.6.sdk
-c000000004B99A23900000000000000EE
-t1268359737
-s238
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004B447F4E00000000000013E6
-t1262780238
-s5094
-
-N/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004B25D6F80000000000B37440
-t1260771064
-s11760704
-
-N/Users/jweinberg/Developer/Objective-Curry/NSArray+Functional.h
-c000000004C06742E000000000000080C
-t1275491374
-s2060
-i<Foundation/Foundation.h>
-
-N/Users/jweinberg/Developer/Objective-Curry/NSArray+Functional.m
-c000000004C0673EE0000000000000BC4
-t1275491310
-s3012
-i"NSArray+Functional.h"
-
-N/Users/jweinberg/Developer/Objective-Curry/OCStream.h
-c000000004C06A9410000000000000751
-t1275504961
-s1873
-i<Foundation/Foundation.h>
-i"curry.h"
-
-N/Users/jweinberg/Developer/Objective-Curry/OCStream.m
-c000000004C06B0C80000000000000D38
-t1275506888
-s3384
-i"OCStream.h"
-
-N/Users/jweinberg/Developer/Objective-Curry/Objective-Curry.m
-c000000004C06ABE2000000000000095F
-t1275505634
-s2399
-i<Foundation/Foundation.h>
-i"curry.h"
-i"NSArray+Functional.h"
-i"OCStream.h"
-
-N/Users/jweinberg/Developer/Objective-Curry/Objective-Curry_Prefix.pch
-c000000004C05609500000000000000DF
-t1275420821
-s223
-i<Foundation/Foundation.h>
-
-N/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/i386/NSArray+Functional.o
-t1275506928
-s8124
-
-N/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/i386/OCStream.o
-t1275506928
-s7948
-
-N/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/i386/Objective-Curry
-t1275506928
-s32960
-
-N/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/i386/Objective-Curry.LinkFileList
-c000000004C06B0E6000000000000021E
-t1275506918
-s542
-
-N/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/i386/Objective-Curry.o
-t1275506928
-s5016
-
-N/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/i386/curry.o
-t1275506928
-s15904
-
-N/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/ppc/NSArray+Functional.o
-t2
-s0
-
-N/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/ppc/OCStream.o
-t2
-s0
-
-N/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/ppc/Objective-Curry
-t2
-s0
-
-N/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/ppc/Objective-Curry.LinkFileList
-c000000004C06B0E6000000000000021A
-t1275506918
-s538
-
-N/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/ppc/Objective-Curry.o
-t2
-s0
-
-N/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/ppc/curry.o
-t2
-s0
-
-N/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/x86_64/NSArray+Functional.o
-t1275506927
-s11168
-
-N/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/x86_64/OCStream.o
-t1275506927
-s11604
-
-N/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/x86_64/Objective-Curry
-t1275506928
-s35240
-
-N/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/x86_64/Objective-Curry.LinkFileList
-c000000004C06B0E60000000000000226
-t1275506918
-s550
-
-N/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/x86_64/Objective-Curry.o
-t1275506927
-s6676
-
-N/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/x86_64/curry.o
-t1275506927
-s20324
-
-N/Users/jweinberg/Developer/Objective-Curry/build/Release/Objective-Curry
-t2
-s0
-
-N/Users/jweinberg/Developer/Objective-Curry/build/Release/Objective-Curry.dSYM
-t2
-s0
-
-N/Users/jweinberg/Developer/Objective-Curry/curry.h
-c000000004C06751E00000000000007D9
-t1275491614
-s2009
-i<Foundation/Foundation.h>
-
-N/Users/jweinberg/Developer/Objective-Curry/curry.m
-c000000004C0673820000000000000956
-t1275491202
-s2390
-i"curry.h"
-
-N/var/folders/Az/AzKfvqfJEX8LvdSy0ftAs1Dpeyw/-Caches-/com.apple.Xcode.871738351/SharedPrecompiledHeaders/Objective-Curry_Prefix-bdfksxdrzdzupbauubctsbtzslcj/Objective-Curry_Prefix.pch.pth
-t1275506925
-s7315036
-
-N/var/folders/Az/AzKfvqfJEX8LvdSy0ftAs1Dpeyw/-Caches-/com.apple.Xcode.871738351/SharedPrecompiledHeaders/Objective-Curry_Prefix-cieqaawatirffyhgnzumwpgsgvnh/Objective-Curry_Prefix.pch.pth
-t2
-s0
-
-N/var/folders/Az/AzKfvqfJEX8LvdSy0ftAs1Dpeyw/-Caches-/com.apple.Xcode.871738351/SharedPrecompiledHeaders/Objective-Curry_Prefix-eumflhwcmoyorjcjhoduhyiptklb/Objective-Curry_Prefix.pch.pth
-t1275506925
-s6530424
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies297199718#297199718#0(0"0(0#1#0"4300911832#0"0#
-
-CCompileC build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/i386/NSArray+Functional.o /Users/jweinberg/Developer/Objective-Curry/NSArray+Functional.m normal i386 objective-c com.apple.compilers.llvm.clang.2_0
-s297199728.252726
-e297199728.530539
-r1
-xCompileC
-xbuild/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/i386/NSArray+Functional.o
-x/Users/jweinberg/Developer/Objective-Curry/NSArray+Functional.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.2_0
-lSLF07#2@71"Compile /Users/jweinberg/Developer/Objective-Curry/NSArray+Functional.m297199728#297199728#0(0"0(0#0#63"/Users/jweinberg/Developer/Objective-Curry/NSArray+Functional.m4300911832#1762"    cd /Users/jweinberg/Developer/Objective-Curry    setenv LANG en_US.US-ASCII    /Users/jweinberg/clang/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-generated-files.hmap -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-own-target-headers.hmap -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-all-target-headers.hmap -iquote /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-project-headers.hmap -F/Users/jweinberg/Developer/Objective-Curry/build/Release -I/Users/jweinberg/Developer/Objective-Curry/build/Release/include -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/DerivedSources/i386 -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/DerivedSources -include /var/folders/Az/AzKfvqfJEX8LvdSy0ftAs1Dpeyw/-Caches-/com.apple.Xcode.871738351/SharedPrecompiledHeaders/Objective-Curry_Prefix-bdfksxdrzdzupbauubctsbtzslcj/Objective-Curry_Prefix.pch -c /Users/jweinberg/Developer/Objective-Curry/NSArray+Functional.m -o /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/i386/NSArray+Functional.o0#
-
-CCompileC build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/i386/OCStream.o /Users/jweinberg/Developer/Objective-Curry/OCStream.m normal i386 objective-c com.apple.compilers.llvm.clang.2_0
-s297199728.365615
-e297199728.783531
-r1
-xCompileC
-xbuild/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/i386/OCStream.o
-x/Users/jweinberg/Developer/Objective-Curry/OCStream.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.2_0
-lSLF07#2@61"Compile /Users/jweinberg/Developer/Objective-Curry/OCStream.m297199728#297199728#0(0"0(0#0#53"/Users/jweinberg/Developer/Objective-Curry/OCStream.m4300911832#1742"    cd /Users/jweinberg/Developer/Objective-Curry    setenv LANG en_US.US-ASCII    /Users/jweinberg/clang/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-generated-files.hmap -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-own-target-headers.hmap -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-all-target-headers.hmap -iquote /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-project-headers.hmap -F/Users/jweinberg/Developer/Objective-Curry/build/Release -I/Users/jweinberg/Developer/Objective-Curry/build/Release/include -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/DerivedSources/i386 -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/DerivedSources -include /var/folders/Az/AzKfvqfJEX8LvdSy0ftAs1Dpeyw/-Caches-/com.apple.Xcode.871738351/SharedPrecompiledHeaders/Objective-Curry_Prefix-bdfksxdrzdzupbauubctsbtzslcj/Objective-Curry_Prefix.pch -c /Users/jweinberg/Developer/Objective-Curry/OCStream.m -o /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/i386/OCStream.o0#
-
-CCompileC build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/i386/Objective-Curry.o /Users/jweinberg/Developer/Objective-Curry/Objective-Curry.m normal i386 objective-c com.apple.compilers.llvm.clang.2_0
-s297199727.970676
-e297199728.252627
-r1
-xCompileC
-xbuild/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/i386/Objective-Curry.o
-x/Users/jweinberg/Developer/Objective-Curry/Objective-Curry.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.2_0
-o/Users/jweinberg/Developer/Objective-Curry/Objective-Curry.m:41:27:{41:27-41:42}: warning: method '-take:' not found (return type defaults to 'id')
-o     OCStream * takeTest = [count take:10];
-o                           ^~~~~~~~~~~~~~~
-o1 diagnostic generated.
-lSLF07#2@68"Compile /Users/jweinberg/Developer/Objective-Curry/Objective-Curry.m297199727#297199728#0(235"/Users/jweinberg/Developer/Objective-Curry/Objective-Curry.m:41:27:{41:27-41:42}: warning: method '-take:' not found (return type defaults to 'id')     OCStream * takeTest = [count take:10];                           ^~~~~~~~~~~~~~~1(22@56"Method '-take:' not found (return type defaults to 'id')297199728#0#148#0(6@60"/Users/jweinberg/Developer/Objective-Curry/Objective-Curry.m297198434#41#27#0#0#49"method * not found (return type defaults to 'id')1(6@60"/Users/jweinberg/Developer/Objective-Curry/Objective-Curry.m297198434#41#27#41#42#0#0#60"/Users/jweinberg/Developer/Objective-Curry/Objective-Curry.m4300911832#1756"    cd /Users/jweinberg/Developer/Objective-Curry    setenv LANG en_US.US-ASCII    /Users/jweinberg/clang/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-generated-files.hmap -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-own-target-headers.hmap -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-all-target-headers.hmap -iquote /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-project-headers.hmap -F/Users/jweinberg/Developer/Objective-Curry/build/Release -I/Users/jweinberg/Developer/Objective-Curry/build/Release/include -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/DerivedSources/i386 -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/DerivedSources -include /var/folders/Az/AzKfvqfJEX8LvdSy0ftAs1Dpeyw/-Caches-/com.apple.Xcode.871738351/SharedPrecompiledHeaders/Objective-Curry_Prefix-bdfksxdrzdzupbauubctsbtzslcj/Objective-Curry_Prefix.pch -c /Users/jweinberg/Developer/Objective-Curry/Objective-Curry.m -o /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/i386/Objective-Curry.o0#
-
-CCompileC build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/i386/curry.o /Users/jweinberg/Developer/Objective-Curry/curry.m normal i386 objective-c com.apple.compilers.llvm.clang.2_0
-s297199728.087998
-e297199728.365495
-r1
-xCompileC
-xbuild/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/i386/curry.o
-x/Users/jweinberg/Developer/Objective-Curry/curry.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.2_0
-lSLF07#2@58"Compile /Users/jweinberg/Developer/Objective-Curry/curry.m297199728#297199728#0(0"0(0#0#50"/Users/jweinberg/Developer/Objective-Curry/curry.m4300911832#1736"    cd /Users/jweinberg/Developer/Objective-Curry    setenv LANG en_US.US-ASCII    /Users/jweinberg/clang/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-generated-files.hmap -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-own-target-headers.hmap -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-all-target-headers.hmap -iquote /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-project-headers.hmap -F/Users/jweinberg/Developer/Objective-Curry/build/Release -I/Users/jweinberg/Developer/Objective-Curry/build/Release/include -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/DerivedSources/i386 -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/DerivedSources -include /var/folders/Az/AzKfvqfJEX8LvdSy0ftAs1Dpeyw/-Caches-/com.apple.Xcode.871738351/SharedPrecompiledHeaders/Objective-Curry_Prefix-bdfksxdrzdzupbauubctsbtzslcj/Objective-Curry_Prefix.pch -c /Users/jweinberg/Developer/Objective-Curry/curry.m -o /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/i386/curry.o0#
-
-CCompileC build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/ppc/NSArray+Functional.o /Users/jweinberg/Developer/Objective-Curry/NSArray+Functional.m normal ppc objective-c com.apple.compilers.llvm.clang.2_0
-r0
-
-CCompileC build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/ppc/OCStream.o /Users/jweinberg/Developer/Objective-Curry/OCStream.m normal ppc objective-c com.apple.compilers.llvm.clang.2_0
-r0
-
-CCompileC build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/ppc/Objective-Curry.o /Users/jweinberg/Developer/Objective-Curry/Objective-Curry.m normal ppc objective-c com.apple.compilers.llvm.clang.2_0
-r0
-
-CCompileC build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/ppc/curry.o /Users/jweinberg/Developer/Objective-Curry/curry.m normal ppc objective-c com.apple.compilers.llvm.clang.2_0
-r0
-
-CCompileC build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/x86_64/NSArray+Functional.o /Users/jweinberg/Developer/Objective-Curry/NSArray+Functional.m normal x86_64 objective-c com.apple.compilers.llvm.clang.2_0
-s297199727.634525
-e297199727.970563
-r1
-xCompileC
-xbuild/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/x86_64/NSArray+Functional.o
-x/Users/jweinberg/Developer/Objective-Curry/NSArray+Functional.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.2_0
-lSLF07#2@71"Compile /Users/jweinberg/Developer/Objective-Curry/NSArray+Functional.m297199727#297199727#0(0"0(0#0#63"/Users/jweinberg/Developer/Objective-Curry/NSArray+Functional.m4300911832#1768"    cd /Users/jweinberg/Developer/Objective-Curry    setenv LANG en_US.US-ASCII    /Users/jweinberg/clang/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-generated-files.hmap -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-own-target-headers.hmap -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-all-target-headers.hmap -iquote /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-project-headers.hmap -F/Users/jweinberg/Developer/Objective-Curry/build/Release -I/Users/jweinberg/Developer/Objective-Curry/build/Release/include -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/DerivedSources/x86_64 -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/DerivedSources -include /var/folders/Az/AzKfvqfJEX8LvdSy0ftAs1Dpeyw/-Caches-/com.apple.Xcode.871738351/SharedPrecompiledHeaders/Objective-Curry_Prefix-eumflhwcmoyorjcjhoduhyiptklb/Objective-Curry_Prefix.pch -c /Users/jweinberg/Developer/Objective-Curry/NSArray+Functional.m -o /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/x86_64/NSArray+Functional.o0#
-
-CCompileC build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/x86_64/OCStream.o /Users/jweinberg/Developer/Objective-Curry/OCStream.m normal x86_64 objective-c com.apple.compilers.llvm.clang.2_0
-s297199727.840400
-e297199728.000981
-r1
-xCompileC
-xbuild/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/x86_64/OCStream.o
-x/Users/jweinberg/Developer/Objective-Curry/OCStream.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.2_0
-lSLF07#2@61"Compile /Users/jweinberg/Developer/Objective-Curry/OCStream.m297199727#297199728#0(0"0(0#0#53"/Users/jweinberg/Developer/Objective-Curry/OCStream.m4300911832#1748"    cd /Users/jweinberg/Developer/Objective-Curry    setenv LANG en_US.US-ASCII    /Users/jweinberg/clang/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-generated-files.hmap -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-own-target-headers.hmap -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-all-target-headers.hmap -iquote /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-project-headers.hmap -F/Users/jweinberg/Developer/Objective-Curry/build/Release -I/Users/jweinberg/Developer/Objective-Curry/build/Release/include -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/DerivedSources/x86_64 -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/DerivedSources -include /var/folders/Az/AzKfvqfJEX8LvdSy0ftAs1Dpeyw/-Caches-/com.apple.Xcode.871738351/SharedPrecompiledHeaders/Objective-Curry_Prefix-eumflhwcmoyorjcjhoduhyiptklb/Objective-Curry_Prefix.pch -c /Users/jweinberg/Developer/Objective-Curry/OCStream.m -o /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/x86_64/OCStream.o0#
-
-CCompileC build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/x86_64/Objective-Curry.o /Users/jweinberg/Developer/Objective-Curry/Objective-Curry.m normal x86_64 objective-c com.apple.compilers.llvm.clang.2_0
-s297199727.106834
-e297199727.634226
-r1
-xCompileC
-xbuild/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/x86_64/Objective-Curry.o
-x/Users/jweinberg/Developer/Objective-Curry/Objective-Curry.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.2_0
-o/Users/jweinberg/Developer/Objective-Curry/Objective-Curry.m:41:27:{41:27-41:42}: warning: method '-take:' not found (return type defaults to 'id')
-o     OCStream * takeTest = [count take:10];
-o                           ^~~~~~~~~~~~~~~
-o1 diagnostic generated.
-lSLF07#2@68"Compile /Users/jweinberg/Developer/Objective-Curry/Objective-Curry.m297199727#297199727#0(235"/Users/jweinberg/Developer/Objective-Curry/Objective-Curry.m:41:27:{41:27-41:42}: warning: method '-take:' not found (return type defaults to 'id')     OCStream * takeTest = [count take:10];                           ^~~~~~~~~~~~~~~1(22@56"Method '-take:' not found (return type defaults to 'id')297199727#0#148#0(6@60"/Users/jweinberg/Developer/Objective-Curry/Objective-Curry.m297198434#41#27#0#0#49"method * not found (return type defaults to 'id')1(6@60"/Users/jweinberg/Developer/Objective-Curry/Objective-Curry.m297198434#41#27#41#42#0#0#60"/Users/jweinberg/Developer/Objective-Curry/Objective-Curry.m4300911832#1762"    cd /Users/jweinberg/Developer/Objective-Curry    setenv LANG en_US.US-ASCII    /Users/jweinberg/clang/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-generated-files.hmap -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-own-target-headers.hmap -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-all-target-headers.hmap -iquote /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-project-headers.hmap -F/Users/jweinberg/Developer/Objective-Curry/build/Release -I/Users/jweinberg/Developer/Objective-Curry/build/Release/include -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/DerivedSources/x86_64 -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/DerivedSources -include /var/folders/Az/AzKfvqfJEX8LvdSy0ftAs1Dpeyw/-Caches-/com.apple.Xcode.871738351/SharedPrecompiledHeaders/Objective-Curry_Prefix-eumflhwcmoyorjcjhoduhyiptklb/Objective-Curry_Prefix.pch -c /Users/jweinberg/Developer/Objective-Curry/Objective-Curry.m -o /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/x86_64/Objective-Curry.o0#
-
-CCompileC build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/x86_64/curry.o /Users/jweinberg/Developer/Objective-Curry/curry.m normal x86_64 objective-c com.apple.compilers.llvm.clang.2_0
-s297199727.108132
-e297199727.840283
-r1
-xCompileC
-xbuild/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/x86_64/curry.o
-x/Users/jweinberg/Developer/Objective-Curry/curry.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.2_0
-lSLF07#2@58"Compile /Users/jweinberg/Developer/Objective-Curry/curry.m297199727#297199727#0(0"0(0#0#50"/Users/jweinberg/Developer/Objective-Curry/curry.m4300911832#1742"    cd /Users/jweinberg/Developer/Objective-Curry    setenv LANG en_US.US-ASCII    /Users/jweinberg/clang/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-generated-files.hmap -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-own-target-headers.hmap -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-all-target-headers.hmap -iquote /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-project-headers.hmap -F/Users/jweinberg/Developer/Objective-Curry/build/Release -I/Users/jweinberg/Developer/Objective-Curry/build/Release/include -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/DerivedSources/x86_64 -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/DerivedSources -include /var/folders/Az/AzKfvqfJEX8LvdSy0ftAs1Dpeyw/-Caches-/com.apple.Xcode.871738351/SharedPrecompiledHeaders/Objective-Curry_Prefix-eumflhwcmoyorjcjhoduhyiptklb/Objective-Curry_Prefix.pch -c /Users/jweinberg/Developer/Objective-Curry/curry.m -o /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/x86_64/curry.o0#
-
-CCreateUniversalBinary /Users/jweinberg/Developer/Objective-Curry/build/Release/Objective-Curry normal "x86_64 i386 ppc"
-r0
-
-CGenerateDSYMFile /Users/jweinberg/Developer/Objective-Curry/build/Release/Objective-Curry.dSYM /Users/jweinberg/Developer/Objective-Curry/build/Release/Objective-Curry
-r0
-
-CLd /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/i386/Objective-Curry normal i386
-s297199728.783645
-e297199728.987050
-r1
-xLd
-x/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/i386/Objective-Curry
-xnormal
-xi386
-old: warning: directory '/Users/jweinberg/Developer/Objective-Curry/build/Release' following -L not found
-old: warning: directory '/Users/jweinberg/Developer/Objective-Curry/build/Release' following -F not found
-lSLF07#2@141"Link /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/i386/Objective-Curry297199728#297199728#0(210"ld: warning: directory '/Users/jweinberg/Developer/Objective-Curry/build/Release' following -L not foundld: warning: directory '/Users/jweinberg/Developer/Objective-Curry/build/Release' following -F not found2(22@91"Directory '/Users/jweinberg/Developer/Objective-Curry/build/Release' following -L not found297199728#0#105#0(6@0"297199728#0#0#0#0#0"0(22@91"Directory '/Users/jweinberg/Developer/Objective-Curry/build/Release' following -F not found297199728#105#105#0(6@0"297199728#0#0#0#0#0"0(0#0#0"4300911832#646"    cd /Users/jweinberg/Developer/Objective-Curry    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Users/jweinberg/clang/bin/clang -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/jweinberg/Developer/Objective-Curry/build/Release -F/Users/jweinberg/Developer/Objective-Curry/build/Release -filelist /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/i386/Objective-Curry.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -o /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/i386/Objective-Curry0#
-
-CLd /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/ppc/Objective-Curry normal ppc
-r0
-
-CLd /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/x86_64/Objective-Curry normal x86_64
-s297199728.001072
-e297199728.087887
-r1
-xLd
-x/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/x86_64/Objective-Curry
-xnormal
-xx86_64
-old: warning: directory '/Users/jweinberg/Developer/Objective-Curry/build/Release' following -L not found
-old: warning: directory '/Users/jweinberg/Developer/Objective-Curry/build/Release' following -F not found
-lSLF07#2@143"Link /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/x86_64/Objective-Curry297199728#297199728#0(210"ld: warning: directory '/Users/jweinberg/Developer/Objective-Curry/build/Release' following -L not foundld: warning: directory '/Users/jweinberg/Developer/Objective-Curry/build/Release' following -F not found2(22@91"Directory '/Users/jweinberg/Developer/Objective-Curry/build/Release' following -L not found297199728#0#105#0(6@0"297199728#0#0#0#0#0"0(22@91"Directory '/Users/jweinberg/Developer/Objective-Curry/build/Release' following -F not found297199728#105#105#0(6@0"297199728#0#0#0#0#0"0(0#0#0"4300911832#652"    cd /Users/jweinberg/Developer/Objective-Curry    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Users/jweinberg/clang/bin/clang -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/jweinberg/Developer/Objective-Curry/build/Release -F/Users/jweinberg/Developer/Objective-Curry/build/Release -filelist /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/x86_64/Objective-Curry.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -o /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objects-normal/x86_64/Objective-Curry0#
-
-CProcessPCH /var/folders/Az/AzKfvqfJEX8LvdSy0ftAs1Dpeyw/-Caches-/com.apple.Xcode.871738351/SharedPrecompiledHeaders/Objective-Curry_Prefix-bdfksxdrzdzupbauubctsbtzslcj/Objective-Curry_Prefix.pch.pth Objective-Curry_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.2_0
-s297199718.957147
-e297199726.970524
-r1
-xProcessPCH
-x/var/folders/Az/AzKfvqfJEX8LvdSy0ftAs1Dpeyw/-Caches-/com.apple.Xcode.871738351/SharedPrecompiledHeaders/Objective-Curry_Prefix-bdfksxdrzdzupbauubctsbtzslcj/Objective-Curry_Prefix.pch.pth
-xObjective-Curry_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.2_0
-lSLF07#2@37"Precompile Objective-Curry_Prefix.pch297199718#297199726#0(0"0(0#0#69"/Users/jweinberg/Developer/Objective-Curry/Objective-Curry_Prefix.pch4300911832#1628"    cd /Users/jweinberg/Developer/Objective-Curry    setenv LANG en_US.US-ASCII    /Users/jweinberg/clang/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-generated-files.hmap -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-own-target-headers.hmap -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-all-target-headers.hmap -iquote /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-project-headers.hmap -F/Users/jweinberg/Developer/Objective-Curry/build/Release -I/Users/jweinberg/Developer/Objective-Curry/build/Release/include -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/DerivedSources/i386 -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/DerivedSources -c /Users/jweinberg/Developer/Objective-Curry/Objective-Curry_Prefix.pch -o /var/folders/Az/AzKfvqfJEX8LvdSy0ftAs1Dpeyw/-Caches-/com.apple.Xcode.871738351/SharedPrecompiledHeaders/Objective-Curry_Prefix-bdfksxdrzdzupbauubctsbtzslcj/Objective-Curry_Prefix.pch.pth0#
-
-CProcessPCH /var/folders/Az/AzKfvqfJEX8LvdSy0ftAs1Dpeyw/-Caches-/com.apple.Xcode.871738351/SharedPrecompiledHeaders/Objective-Curry_Prefix-cieqaawatirffyhgnzumwpgsgvnh/Objective-Curry_Prefix.pch.pth Objective-Curry_Prefix.pch normal ppc objective-c com.apple.compilers.llvm.clang.2_0
-s297199725.633720
-e297199727.106740
-r0
-xProcessPCH
-x/var/folders/Az/AzKfvqfJEX8LvdSy0ftAs1Dpeyw/-Caches-/com.apple.Xcode.871738351/SharedPrecompiledHeaders/Objective-Curry_Prefix-cieqaawatirffyhgnzumwpgsgvnh/Objective-Curry_Prefix.pch.pth
-xObjective-Curry_Prefix.pch
-xnormal
-xppc
-xobjective-c
-xcom.apple.compilers.llvm.clang.2_0
-oAssertion failed: (TargetInitialized && "Target not initialized!"), function getTargetVersion, file ToolChains.h, line 100.
-o0  clang             0x000000010103d262
-o1  clang             0x000000010103daec
-o2  libSystem.B.dylib 0x00007fff884dc80a _sigtramp + 26
-o3  libSystem.B.dylib 0x00007fff8848150a tiny_malloc_from_free_list + 1196
-o4  libSystem.B.dylib 0x00007fff88557ef0 __pthread_markcancel + 0
-o5  clang             0x000000010015639f
-o6  clang             0x00000001001305f8
-o7  clang             0x00000001001303a2
-o8  clang             0x0000000100130c47
-o9  clang             0x000000010013188b
-o10 clang             0x000000010003bad4
-o11 clang             0x0000000100036b88
-oStack dump:
-o0.	Program arguments: /Users/jweinberg/clang/bin/clang -x objective-c-header -arch ppc -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-generated-files.hmap -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-own-target-headers.hmap -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-all-target-headers.hmap -iquote /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-project-headers.hmap -F/Users/jweinberg/Developer/Objective-Curry/build/Release -I/Users/jweinberg/Developer/Objective-Curry/build/Release/include -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/DerivedSources/ppc -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/DerivedSources -c /Users/jweinberg/Developer/Objective-Curry/Objective-Curry_Prefix.pch -o /var/folders/Az/AzKfvqfJEX8LvdSy0ftAs1Dpeyw/-Caches-/com.apple.Xcode.871738351/SharedPrecompiledHeaders/Objective-Curry_Prefix-cieqaawatirffyhgnzumwpgsgvnh/Objective-Curry_Prefix.pch.pth 
-o1.	Compilation construction
-o2.	Building compilation jobs
-o3.	Building compilation jobs
-o4.	Building compilation jobs
-lSLF07#2@37"Precompile Objective-Curry_Prefix.pch297199725#297199727#0(2434"Assertion failed: (TargetInitialized && "Target not initialized!"), function getTargetVersion, file ToolChains.h, line 100.0  clang             0x000000010103d2621  clang             0x000000010103daec2  libSystem.B.dylib 0x00007fff884dc80a _sigtramp + 263  libSystem.B.dylib 0x00007fff8848150a tiny_malloc_from_free_list + 11964  libSystem.B.dylib 0x00007fff88557ef0 __pthread_markcancel + 05  clang             0x000000010015639f6  clang             0x00000001001305f87  clang             0x00000001001303a28  clang             0x0000000100130c479  clang             0x000000010013188b10 clang             0x000000010003bad411 clang             0x0000000100036b88Stack dump:0.	Program arguments: /Users/jweinberg/clang/bin/clang -x objective-c-header -arch ppc -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-generated-files.hmap -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-own-target-headers.hmap -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-all-target-headers.hmap -iquote /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-project-headers.hmap -F/Users/jweinberg/Developer/Objective-Curry/build/Release -I/Users/jweinberg/Developer/Objective-Curry/build/Release/include -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/DerivedSources/ppc -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/DerivedSources -c /Users/jweinberg/Developer/Objective-Curry/Objective-Curry_Prefix.pch -o /var/folders/Az/AzKfvqfJEX8LvdSy0ftAs1Dpeyw/-Caches-/com.apple.Xcode.871738351/SharedPrecompiledHeaders/Objective-Curry_Prefix-cieqaawatirffyhgnzumwpgsgvnh/Objective-Curry_Prefix.pch.pth 1.	Compilation construction2.	Building compilation jobs3.	Building compilation jobs4.	Building compilation jobsCommand /Users/jweinberg/clang/bin/clang failed with exit code 61(4@64"Command /Users/jweinberg/clang/bin/clang failed with exit code 6297199727#18446744073709551615#0#0(1@0"0(0#0#69"/Users/jweinberg/Developer/Objective-Curry/Objective-Curry_Prefix.pch4300911832#1626"    cd /Users/jweinberg/Developer/Objective-Curry    setenv LANG en_US.US-ASCII    /Users/jweinberg/clang/bin/clang -x objective-c-header -arch ppc -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-generated-files.hmap -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-own-target-headers.hmap -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-all-target-headers.hmap -iquote /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-project-headers.hmap -F/Users/jweinberg/Developer/Objective-Curry/build/Release -I/Users/jweinberg/Developer/Objective-Curry/build/Release/include -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/DerivedSources/ppc -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/DerivedSources -c /Users/jweinberg/Developer/Objective-Curry/Objective-Curry_Prefix.pch -o /var/folders/Az/AzKfvqfJEX8LvdSy0ftAs1Dpeyw/-Caches-/com.apple.Xcode.871738351/SharedPrecompiledHeaders/Objective-Curry_Prefix-cieqaawatirffyhgnzumwpgsgvnh/Objective-Curry_Prefix.pch.pth6#
-
-CProcessPCH /var/folders/Az/AzKfvqfJEX8LvdSy0ftAs1Dpeyw/-Caches-/com.apple.Xcode.871738351/SharedPrecompiledHeaders/Objective-Curry_Prefix-eumflhwcmoyorjcjhoduhyiptklb/Objective-Curry_Prefix.pch.pth Objective-Curry_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.2_0
-s297199718.955890
-e297199725.633434
-r1
-xProcessPCH
-x/var/folders/Az/AzKfvqfJEX8LvdSy0ftAs1Dpeyw/-Caches-/com.apple.Xcode.871738351/SharedPrecompiledHeaders/Objective-Curry_Prefix-eumflhwcmoyorjcjhoduhyiptklb/Objective-Curry_Prefix.pch.pth
-xObjective-Curry_Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.2_0
-lSLF07#2@37"Precompile Objective-Curry_Prefix.pch297199718#297199725#0(0"0(0#0#69"/Users/jweinberg/Developer/Objective-Curry/Objective-Curry_Prefix.pch4300911832#1632"    cd /Users/jweinberg/Developer/Objective-Curry    setenv LANG en_US.US-ASCII    /Users/jweinberg/clang/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-generated-files.hmap -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-own-target-headers.hmap -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-all-target-headers.hmap -iquote /Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/Objective-Curry-project-headers.hmap -F/Users/jweinberg/Developer/Objective-Curry/build/Release -I/Users/jweinberg/Developer/Objective-Curry/build/Release/include -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/DerivedSources/x86_64 -I/Users/jweinberg/Developer/Objective-Curry/build/Objective-Curry.build/Release/Objective-Curry.build/DerivedSources -c /Users/jweinberg/Developer/Objective-Curry/Objective-Curry_Prefix.pch -o /var/folders/Az/AzKfvqfJEX8LvdSy0ftAs1Dpeyw/-Caches-/com.apple.Xcode.871738351/SharedPrecompiledHeaders/Objective-Curry_Prefix-eumflhwcmoyorjcjhoduhyiptklb/Objective-Curry_Prefix.pch.pth0#
-
