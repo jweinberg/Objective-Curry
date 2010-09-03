@@ -29,8 +29,8 @@
 
 @interface OCArray ()
 
-@property (retain) OCStream * stream;
-@property (retain) OCStream * cachedReadStream;
+@property (nonatomic, retain) OCStream * stream;
+@property (nonatomic, retain) OCStream * cachedReadStream;
 @end
 
 
@@ -84,37 +84,37 @@
 
 - (NSUInteger)count;
 {
-    return [_stream length];
+    return [self.stream length];
 }
 
 - (OCArray *)subarrayWithRange:(NSRange)range;
 {
-    return [OCArray arrayWithStream:[[_stream drop:range.location] take:range.length]];
+    return [OCArray arrayWithStream:[[self.stream drop:range.location] take:range.length]];
 }
 
 - (NSEnumerator *)objectEnumerator;
 {
-    return [_stream enumerator];
+    return [self.stream enumerator];
 }
 
 - (NSUInteger)countByEnumeratingWithState:(NSFastEnumerationState *)state objects:(id *)stackbuf count:(NSUInteger)len;
 {
-    return [_stream countByEnumeratingWithState:state objects:stackbuf count:len];
+    return [self.stream countByEnumeratingWithState:state objects:stackbuf count:len];
 }
 
 - (OCArray *)filteredArrayUsingPredicate:(NSPredicate *)predicate;
 {
-    return [OCArray arrayWithStream:[_stream filter:^(id arg1) {return [NSNumber numberWithBool:[predicate evaluateWithObject:arg1]];}]];
+    return [OCArray arrayWithStream:[self.stream filter:^(id arg1) {return [NSNumber numberWithBool:[predicate evaluateWithObject:arg1]];}]];
 }
 
 - (void)setValue:(id)value forKey:(NSString *)key;
 {    
-    self.stream = [_stream map:^(id arg1) {[arg1 setValue:value forKey:key]; return arg1;}];
+    self.stream = [self.stream map:^(id arg1) {[arg1 setValue:value forKey:key]; return arg1;}];
 }
 
 - (OCArray *)valueForKey:(NSString *)key;
 {
-    return [OCArray arrayWithStream:[_stream map:^(id arg1) {return [arg1 valueForKey:key];}]];
+    return [OCArray arrayWithStream:[self.stream map:^(id arg1) {return [arg1 valueForKey:key];}]];
 }
 
 @end

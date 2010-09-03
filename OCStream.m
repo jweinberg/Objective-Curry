@@ -76,7 +76,7 @@
     
     NSUInteger batchCount = 0;
     id object = nil;
-    while ((object = [enumerator nextObject]) && batchCount < len)
+    while (batchCount < len && (object = [enumerator nextObject]))
     {
         stackbuf[batchCount++] = object;
     }
@@ -117,6 +117,9 @@
 
 - (OCStream*)take:(int)count;
 {
+    if ([self head] == nil)
+        return nil;
+    
     OCStream *retStream = [OCStream streamWithValue:[self head]
                                           generator:^OCStream*(void)
                            {
@@ -135,6 +138,9 @@
 
 - (OCStream*)drop:(int)count;
 {
+    if ([self head] == nil)
+        return nil;
+    
     OCStream *retStream = [OCStream streamWithValue:[self head]
                                           generator:^OCStream*(void)
                            {
@@ -162,6 +168,9 @@
 
 - (OCStream*)filter:(id(^)(id))block;
 {
+    if ([self head] == nil)
+        return nil;
+    
     OCStream *retStream = [OCStream streamWithValue:[self head]
                                           generator:^OCStream*(void)
                            {   
@@ -187,6 +196,9 @@
 
 - (OCStream*)map:(id(^)(id))block;
 {
+    if ([self head] == nil)
+        return nil;
+    
     OCStream *retStream = [OCStream streamWithValue:block([self head])
                                           generator:^OCStream*
                            {   
@@ -201,6 +213,9 @@
 
 - (OCStream*)zip:(OCStream*)aStream;
 {
+    if ([self head] == nil)
+        return nil;
+    
     OCStream *retStream = [OCStream streamWithValue:[NSArray arrayWithObjects:[self head], [aStream head], nil]
                                           generator:^OCStream*
                            {   

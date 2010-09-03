@@ -34,11 +34,52 @@ typedef IDBlock3 (^IDBlock4)(id);
 typedef id (^c2)(id,id);
 typedef id (^c3)(id,id,id);
 typedef id (^c4)(id,id,id,id);
-/*
-IDBlock2 OC_OVERLOAD curry(c2 block);
-IDBlock3 OC_OVERLOAD curry(c3 block);
-IDBlock4 OC_OVERLOAD curry(c4 block);
 
-c2 OC_OVERLOAD uncurry(IDBlock2 block);
-c3 OC_OVERLOAD uncurry(IDBlock3 block);
-c4 OC_OVERLOAD uncurry(IDBlock4 block);*/
+IDBlock2 curry(c2 block);
+IDBlock3 curry(c3 block);
+IDBlock4 curry(c4 block);
+
+c2 uncurry(IDBlock2 block);
+c3 uncurry(IDBlock3 block);
+c4 uncurry(IDBlock4 block);
+
+template<typename T, typename X, typename Y>
+T (^(^curry(T (^block)(X,Y)))(Y))(X)
+{
+    return [[^(X a){
+		return [[^(Y b){
+			return block(a,b);
+		} copy] autorelease];
+    } copy] autorelease];
+};
+
+template<typename T, typename X, typename Y, typename Z>
+T (^(^(^curry(T (^block)(X,Y,Z)))(Z))(Y))(X)
+{
+	return [[^(X a){		   
+		return [[^(Y b){
+			return [[^(Z c){
+				return block(a,b,c);
+			} copy] autorelease];
+		} copy] autorelease];
+    } copy] autorelease];
+}
+
+template<typename T, typename X, typename Y>
+T (^uncurry(T (^(^block)(X))(Y)))(X a, Y b)
+{
+    return [[^(X a, Y b)
+             {
+				 return block(a)(b);
+             } copy] autorelease];
+}
+
+
+template<typename T, typename X, typename Y, typename Z>
+T (^uncurry(T (^(^(^block)(X))(Y))(Z)))(X a, Y b, Z c)
+{
+    return [[^(X a, Y b, Z c)
+             {
+				 return block(a)(b)(c);
+             } copy] autorelease];
+}
